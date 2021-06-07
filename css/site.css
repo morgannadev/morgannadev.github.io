@@ -1,0 +1,60 @@
+.social {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nome {
+    font-size: 52px;
+}
+
+.profissao {
+    font-size: 22px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(110deg, rgb(0, 0, 0) 10%, rgb(17, 0, 90) 100%, rgb(0, 0, 0) 100%);
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.principal {
+    background-color: #1e212d;
+    min-height: 100vh;
+    padding: 250px;
+}
+
+.infoconteudo {
+    min-height: 100vh;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.descricao {
+    font-size: 18px;
+}
+
+.conteudo {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.subtitulo {
+    font-weight: bold;
+}
+
+.linkpagina {
+    text-decoration: none;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    margin: 50px;
+}
