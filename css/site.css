@@ -1,32 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#capa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    /* background: linear-gradient(110deg, rgb(0, 0, 0) 10%, rgb(17, 0, 90) 100%, rgb(0, 0, 0) 100%); */
+    background-color: #29272A;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    background-color: #774069;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
 .social {
     text-decoration: none;
     margin: 0 10px;
 }
 
-.nome {
+.titulo {
     font-size: 52px;
+    line-height: 78px;
 }
 
-.profissao {
+.subtitulo {
     font-size: 22px;
-    margin: 10px 0;
-    margin-bottom: 20px;
-}
-
-.home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(110deg, rgb(0, 0, 0) 10%, rgb(17, 0, 90) 100%, rgb(0, 0, 0) 100%);
-    min-height: 100vh;
-    margin: 0 auto;
-}
-
-.principal {
-    background-color: #1e212d;
-    min-height: 100vh;
-    padding: 250px;
+    line-height: 33px;
 }
 
 .infoconteudo {
@@ -38,23 +49,47 @@
     height: 30px;
 }
 
-.descricao {
-    font-size: 18px;
+.icon:hover {
+    width: 35px;
+    height: 35px;
 }
 
 .conteudo {
-    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
-.subtitulo {
-    font-weight: bold;
+.segura-texto {
+    margin: 0 auto;
+    max-width: 900px;
 }
 
-.linkpagina {
-    text-decoration: none;
-    flex-direction: column;
-    justify-content: right;
-    text-align: right;
-    margin: 50px;
+.titulo {
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.homecontato {
+    margin-top: 20px;
+}
+
+#comunidade {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #3473B1;
+}
+
+#profissional {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #008CBB;
+    display: flex;
+}
+
+.profissional-conteudo {
+    margin: 100px;
+    width: 40%;
+}
+
+.profissional-informacao {
+
 }
