@@ -9,16 +9,6 @@ a {
     color: inherit; /* herda a cor de antes e não a cor padrão de link */
 }
 
-.link_sobre {
-    /* text-decoration: underline; */
-    font-weight: bold;
-}
-
-.link_sobre:hover {
-    background-color: #fff;
-    color: #AE337A;
-}
-
 #capa {
     display: flex;
     flex-direction: column;
@@ -37,6 +27,42 @@ a {
     background-color: #AE337A;
     min-height: 100vh;
     margin: 0 auto;
+}
+
+#profissional {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #008CBB;
+    display: flex;
+}
+
+#frase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #121841;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.texto_frase {
+    font-size: 30px;
+}
+
+.texto_autor {
+    font-size: 25px;
+    font-family: 'Pacifico';
+    margin: 10px 0 50px 0;
+}
+
+.link_sobre {
+    font-weight: bold;
+}
+
+.link_sobre:hover {
+    background-color: #fff;
+    color: #AE337A;
 }
 
 .social {
@@ -59,12 +85,13 @@ a {
 }
 
 .icon {
-    width: 2.5em;
+    width: 2.3em;
+    opacity: 0.8;
 }
 
 .icon:hover {
-    transform: scale(1.3);
-    /* filter: drop-shadow(3px 2px 1px rgba(187, 187, 187, 0.2)); */
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 .conteudo {
@@ -83,19 +110,6 @@ a {
 
 .homecontato {
     margin-top: 20px;
-}
-
-#comunidade {
-    min-height: 100vh;
-    margin: 0 auto;
-    background-color: #3473B1;
-}
-
-#profissional {
-    min-height: 100vh;
-    margin: 0 auto;
-    background-color: #008CBB;
-    display: flex;
 }
 
 .profissional-conteudo {
@@ -128,10 +142,6 @@ a {
 .nome_funcao {
     font-size: 2.6ch;
     font-weight: bold;
-}
-
-.nome_empresa {
-    
 }
 
 .tempo_empresa {
