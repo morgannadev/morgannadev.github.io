@@ -1,32 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* herda a cor de antes e não a cor padrão de link */
+}
+
+#capa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #121841;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    background-color: #AE337A;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+#profissional {
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #008CBB;
+    display: flex;
+}
+
+#frase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #121841;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.texto_frase {
+    font-size: 30px;
+}
+
+.texto_autor {
+    font-size: 25px;
+    font-family: 'Pacifico';
+    margin: 10px 0 50px 0;
+}
+
+.link_sobre {
+    font-weight: bold;
+}
+
+.link_sobre:hover {
+    background-color: #fff;
+    color: #AE337A;
+}
+
 .social {
     text-decoration: none;
     margin: 0 10px;
 }
 
-.nome {
+.titulo {
     font-size: 52px;
+    line-height: 78px;
 }
 
-.profissao {
+.subtitulo {
     font-size: 22px;
-    margin: 10px 0;
-    margin-bottom: 20px;
-}
-
-.home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    background: linear-gradient(110deg, rgb(0, 0, 0) 10%, rgb(17, 0, 90) 100%, rgb(0, 0, 0) 100%);
-    min-height: 100vh;
-    margin: 0 auto;
-}
-
-.principal {
-    background-color: #1e212d;
-    min-height: 100vh;
-    padding: 250px;
+    line-height: 33px;
 }
 
 .infoconteudo {
@@ -34,27 +85,69 @@
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    width: 2.3em;
+    opacity: 0.8;
 }
 
-.descricao {
-    font-size: 18px;
+.icon:hover {
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 .conteudo {
-    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
-.subtitulo {
+.segura-texto {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.titulo {
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.homecontato {
+    margin-top: 20px;
+}
+
+.profissional-conteudo {
+    margin: 100px;
+    width: 40%;
+}
+
+.titulo_secao {
+    font-family: 'Pacifico';
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.logo_experiencia {
+    width: 2.5em;
+    border-radius: 50%;
+}
+
+.experiencia {
+    display: flex;
+    text-align: justify;
+    gap: 0.6em;
+    margin-top: 3em;
+}
+
+.parte_texto {
+    flex-direction: column;
+}
+
+.nome_funcao {
+    font-size: 2.6ch;
     font-weight: bold;
 }
 
-.linkpagina {
-    text-decoration: none;
-    flex-direction: column;
-    justify-content: right;
-    text-align: right;
-    margin: 50px;
+.tempo_empresa {
+    font-size: 1.5ch;
+}
+
+.texto_experiencia {
+    margin-top: 15px;
 }
