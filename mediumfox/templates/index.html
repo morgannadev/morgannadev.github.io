@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="home-page">
+  <div class="hero">
+    <h1>{{ SITENAME|striptags }}</h1>
+    <h4>{{ SITESUBTITLE|striptags }}</h4>
+  </div>
+
+  <div class="home-field">
+    <div class="home-landing her-row">
+      <div class="container">
+        <div class="row">
+          <div id="about-me" class="col-md-offset-3 col-md-6">
+            <h4>about me</h4>
+            {% if SITE_DESCRIPTION %}
+            <p>{{ SITE_DESCRIPTION|striptags }}</p>
+            {% endif %}
+            <div class="social-icon-list">
+            	{% if AUTHOR_TWITTER %}
+              <a title="Twitter" href="https://twitter.com/{{ AUTHOR_TWITTER }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_31_twitter.png"/></a>
+              {% endif %}
+              {% if AUTHOR_GITHUB %}
+              <a title="GitHub" href="https://github.com/{{ AUTHOR_GITHUB }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_21_github.png"/></a>
+              {% endif %}
+              {% if AUTHOR_LINKEDIN %}
+              <a title="LinkedIn" href="https://linkedin.com/in/{{ AUTHOR_LINKEDIN }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_17_linked_in.png"/></a>
+              {% endif %}
+              {% if AUTHOR_EMAIL %}
+              <a title="E-Mail" href="mailto:{{ AUTHOR_EMAIL }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_39_e-mail.png"/></a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="article-list">
+      <div class="container">
+        {% for article in articles_page.object_list %}
+          <!-- CONTENT GOES HERE -->
+          <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+              <article>
+                <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title|striptags }}</a></h2>
+                <p>
+                  {{ article.summary }}
+                </p>
+                <span class="meta">
+                  written <time datetime="{{ article.date.isoformat()  }}">{{ article.date|strftime('%B %d, %Y') }}</time>
+                  {% if article.tags %}
+                  in <span class="categories">
+                  {% for tag in article.tags %}
+                    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag|lower }}</a>{% if not loop.last %},{% endif %}
+                  {% endfor %}
+                  {% endif %}
+                </span>
+                <a class="full-article-link pull-right" rel="full-article" href="{{ SITEURL }}{{ article.url }}">Read on →</a>
+              </article>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <hr class="divider-short"/>
+    <div class="archive-link">
+      <h3><a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">All Posts</a></h3>
+    </div>
+  </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  {% block head %}
+  <meta charset="utf-8">
+  <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+  <meta name="author" content="{{ AUTHOR }}">
+
+  {% block meta_block %}
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% endblock meta_block %}
+
+  <link rel="canonical" href="{% block canonical %}{{ SITEURL }}{% endblock canonical %}">
+
+  <link href="{{ SITEURL }}/favicon.png" rel="icon">
+
+  {% if FEED_ALL_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+  {% endif %}
+  {% if FEED_ALL_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+  {% endif %}
+
+  {% block styles %}
+  <link href="{{ SITEURL }}/theme/css/screen.css"  media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="{{ SITEURL }}/theme/css/tomorrow.css"  media="screen, projection" rel="stylesheet" type="text/css" />
+  {% endblock styles %}
+
+  {% block head_js %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  {% endblock head_js %}
+  
+  {% endblock head %}
+</head>
+  <body>
+    <a href="/" class="home-icon">
+      {% if SITE_IMAGE_URL %}
+      <img src="{{ SITE_IMAGE_URL }}"/>
+      {% else %}
+      <img src="{{ SITEURL }}/theme/images/home.png"/>
+      {% endif %}
+    </a>
+    {% block content %}
+    {% endblock content %}
+    <footer id="footer" class="her-row">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-1">
+            <a href="/"><h4>Home</h4></a>
+          </div>
+
+          <div class="col-md-2">
+            <div class="social-icon-list">
+              {% if AUTHOR_TWITTER %}
+              <a href="https://twitter.com/{{ AUTHOR_TWITTER }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_31_twitter.png"/></a>
+              {% endif %}
+
+              {% if AUTHOR_GITHUB %}
+              <a href="https://github.com/{{ AUTHOR_GITHUB }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_21_github.png"/></a>
+              {% endif %}
+
+              {% if AUTHOR_LINKEDIN %}
+              <a href="https://linkedin.com/in/{{ AUTHOR_LINKEDIN }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_17_linked_in.png"/></a>
+              {% endif %}
+
+              {% if AUTHOR_EMAIL %}
+              <a href="mailto:{{ AUTHOR_EMAIL }}"><img src="{{ SITEURL }}/theme/images/glyphicons_social_39_e-mail.png"/></a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="pull-right">
+            <h4>Powered by <a href="http://blog.getpelican.com/">Pelican</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+    {% block foot_js %}
+    {% if USE_MATHJAX %}
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+         jax: ["input/TeX", "output/HTML-CSS"],
+         tex2jax: {
+           inlineMath: [ ['$', '$'] ],
+           displayMath: [ ['$$', '$$']],
+           processEscapes: true,
+           skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+         },
+         messageStyle: "none",
+         "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
+        });
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+    {% endif %}
+    {% endblock foot_js %}
+  </body>
+</html>
