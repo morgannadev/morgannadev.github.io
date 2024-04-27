@@ -18,7 +18,7 @@
       <div class="col-md-8 col-md-offset-2">
         <h1>{{ article.title|striptags }}</h1>
         <div class="meta">
-          written <time datetime="{{ article.date.isoformat()  }}">{{ article.date|strftime('%B %d, %Y') }}</time>
+          escrito em <time datetime="{{ article.date.isoformat()  }}">{{ article.date|strftime('%B %d, %Y') }}</time>
           {% if article.tags %}
           in <span class="categories">
           {% for tag in article.tags %}

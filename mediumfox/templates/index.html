@@ -52,7 +52,7 @@
                   {{ article.summary }}
                 </p>
                 <span class="meta">
-                  written <time datetime="{{ article.date.isoformat()  }}">{{ article.date|strftime('%B %d, %Y') }}</time>
+                  escrito em <time datetime="{{ article.date.isoformat()  }}">{{ article.date|strftime('%B %d, %Y') }}</time>
                   {% if article.tags %}
                   in <span class="categories">
                   {% for tag in article.tags %}

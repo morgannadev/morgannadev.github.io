@@ -1,5 +1,5 @@
-AUTHOR = 'Morganna'
-SITENAME = 'Morganna'
+AUTHOR = 'morgannadev'
+SITENAME = 'morganna giovanelli'
 SITEURL = ""
 
 PATH = "content"

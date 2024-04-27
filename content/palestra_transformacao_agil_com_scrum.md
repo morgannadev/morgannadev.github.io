@@ -1,7 +1,6 @@
 Title: A transformação ágil com Scrum
 Date: 2017-07-17
-Category: article
-Tags: palestra
+Category: palestra
 
 Essa foi a minha primeira palestra, contando com apoio da comunidade, para compartilhar um pouco de conhecimento sobre meus recentes aprendizados sobre Scrum no local onde eu trabalhava na época.
 
