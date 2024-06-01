@@ -1,0 +1,21 @@
+[
+    {
+        "article_name": "Trilha de estudos para ser uma pessoa desenvolvedora Python RPA",
+        "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fekjeeh2059svfmwyb3sk.png",
+        "article_image_description": "uma bela descrição",
+        "article_link": "https://dev.to/botcitydev/trilha-de-estudos-para-ser-uma-pessoa-desenvolvedora-python-rpa-3o85",
+        "article_tags": [
+            "python",
+            "rpa"
+        ]
+    },
+    {
+        "article_name": "O papel da pessoa desenvolvedora muito além do código",
+        "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
+        "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
+        "article_tags": [
+            "desenvolvimento",
+            "rpa"
+        ]
+    }
+]
