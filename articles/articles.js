@@ -1,18 +1,14 @@
-createArticleCards()
+createArticleCards();
 
-function createArticleCards() {   
-  
-  fetch('articles.json')
-  .then(res => res.json())
-  .then((res) => {
-    res.map(article => {
-        console.log(article.article_name);
-        
+function createArticleCards() {
+  fetch("articles.json")
+    .then((res) => res.json())
+    .then((res) => {
+      res.map((article) => {
         createCard(article);
+      });
     });
-  })
-  
-};
+}
 
 function createCard(article) {
   const newTagA = document.createElement("a");

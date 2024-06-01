@@ -1,0 +1,27 @@
+#talks_cards {
+  display: inline-flex;
+  gap: 10px;
+  max-width: 960px;
+  /* o wrap garante que o conteúdo não ultrapasse o limite do container
+    que no caso é a section */
+  flex-wrap: wrap;
+}
+
+/* essa é a class da div que envolve o card para os artigos */
+.card_talk {
+  border: 1px solid black;
+  width: 260px;
+  height: 270px;
+  padding: 5px;
+}
+
+.card_talk > figure > img {
+  width: 16rem;
+  height: 7rem;
+  object-fit: cover;
+}
+
+.event_video {
+  display: flex;
+  justify-content: space-between;
+}
