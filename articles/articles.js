@@ -7,26 +7,44 @@ function createArticleCards() {
   .then((res) => {
     res.map(article => {
         console.log(article.article_name);
-        const cardsContainer = document.getElementById("articles_cards");
-        console.log(cardsContainer);
-
-        createCard();
+        
+        createCard(article);
     });
   })
   
 };
 
-function createCard() {
-  // create a new div element
-  const newSectionForArticles = document.createElement("section");
+function createCard(article) {
+  const newTagA = document.createElement("a");
+  newTagA.href = article.article_link;
 
-  // and give it some content
-  const newContent = document.createTextNode("Hi there and greetings!");
+  const newTagDiv = document.createElement("div");
+  newTagA.appendChild(newTagDiv);
+  newTagDiv.className = "card_article";
 
-  // add the text node to the newly created div
-  newSectionForArticles.appendChild(newContent);
+  const newTagFigure = document.createElement("figure");
+  newTagDiv.appendChild(newTagFigure);
 
-  // add the newly created element and its content into the DOM
-  const currentDiv = document.getElementById("articles_cards");
-  currentDiv.appendChild(newSectionForArticles);
+  const newTagImage = document.createElement("img");
+  newTagFigure.appendChild(newTagImage);
+  newTagImage.src = article.article_image;
+  newTagImage.alt = article.article_image_description;
+
+  const newTagArticle = document.createElement("article");
+  newTagDiv.appendChild(newTagArticle);
+
+  const newTagPtitle = document.createElement("p");
+  newTagArticle.appendChild(newTagPtitle);
+  newTagPtitle.innerText = article.article_name;
+
+  const newTagPDate = document.createElement("p");
+  newTagArticle.appendChild(newTagPDate);
+  newTagPDate.innerText = "Publicação em: " + article.article_date;
+
+  const newTagPtags = document.createElement("p");
+  newTagArticle.appendChild(newTagPtags);
+  newTagPtags.innerText = article.article_tags;
+
+  const currentTagSection = document.getElementById("articles_cards");
+  currentTagSection.appendChild(newTagA);
 }

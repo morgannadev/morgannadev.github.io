@@ -6,7 +6,6 @@ body {
     gap: 16px;
     height: 100vh;
     justify-content: space-between;
-
     /* as duas linhas abaixo estão centralizando tudo */
     width: min(100% - 4rem, 960px);
     margin-inline: auto;
