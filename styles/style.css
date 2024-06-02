@@ -1,20 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* variáveis globais para o CSS */
+/* para utilizar, chama onde precisa como var(--nome-da-variável) */
+:root {
+  --icon-social-media-color: #583fb1;
+}
+
 body {
   padding: 16px;
   display: flex;
   /* o flex-direction column faz o site ser uma coluna só */
   flex-direction: column;
-  gap: 16px;
+  gap: 80px;
   height: 100vh;
   justify-content: space-between;
   /* as duas linhas abaixo estão centralizando tudo */
   width: min(100% - 4rem, 960px);
   margin-inline: auto;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  padding-block: 2rem;
 }
 
 nav ul {
@@ -31,6 +41,9 @@ li a {
 footer {
   display: flex;
   justify-content: space-between;
+  font-size: small;
+  /* padding-block corresponde a espaçamento em cima e embaixo */
+  padding-block: 2rem;
 }
 
 footer ul {
@@ -44,22 +57,12 @@ main {
   align-items: center;
 }
 
-.main_first_page {
-  display: inline-flex;
+ul li a svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--icon-social-media-color);
 }
 
-.morgs_photo {
-  border-radius: 30%;
-  height: 200px;
-  width: 200px;
-  /* object-fit cover ajusta a imagem ao tamanho definido */
-  object-fit: cover;
-}
-
-.hello_there_text {
-  width: 80ch;
-}
-
-.about_me_text {
-  width: 80ch;
+.footer_social {
+  border: 1px solid black;
 }

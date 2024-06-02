@@ -1,5 +1,7 @@
-article {
-  display: inline-flex;
-  gap: 20px;
-  align-items: center;
+h1 {
+  padding-block: 2rem;
+}
+
+p {
+  padding-block: 1rem;
 }

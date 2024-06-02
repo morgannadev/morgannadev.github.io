@@ -1,0 +1,19 @@
+.main_first_page {
+  display: inline-flex;
+}
+
+.morgs_photo {
+  border-radius: 60px;
+  /* object-fit cover ajusta a imagem ao tamanho definido */
+  /* object-fit: cover; */
+}
+
+.hello_there_text {
+  width: 40ch;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.about_me_text {
+  width: 40ch;
+}
