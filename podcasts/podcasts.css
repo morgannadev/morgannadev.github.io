@@ -1,27 +1,27 @@
-#talks_cards {
+#podcasts_cards {
   display: inline-flex;
   gap: 10px;
   max-width: 960px;
   /* o wrap garante que o conteúdo não ultrapasse o limite do container
-    que no caso é a section */
+      que no caso é a section */
   flex-wrap: wrap;
 }
 
 /* essa é a class da div que envolve o card para os artigos */
-.card_talk {
+.card_podcast {
   border: 1px solid black;
   width: 260px;
-  height: 240px;
+  height: 300px;
   padding: 5px;
 }
 
-.card_talk > figure > img {
+.card_podcast > figure > img {
   width: 16rem;
-  height: 7rem;
+  height: 9rem;
   object-fit: cover;
 }
 
-.event_video {
+.podcast_video {
   display: flex;
   justify-content: space-between;
 }

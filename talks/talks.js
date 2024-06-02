@@ -44,15 +44,11 @@ function createCard(talk) {
     newTagImgIconVideo.src = "/images/icons/video.svg";
   }
 
-  const newTagPtitle = document.createElement("p");
-  newTagArticle.appendChild(newTagPtitle);
-  newTagPtitle.innerText = talk.talk_name;
-
-  const newTagAslides = document.createElement("a");
-  newTagArticle.appendChild(newTagAslides);
-  newTagAslides.href = talk.talk_slides_link;
-  newTagAslides.target = "_blank";
-  newTagAslides.innerText = "Slides";
+  const newTagASlidesAndTalkName = document.createElement("a");
+  newTagArticle.appendChild(newTagASlidesAndTalkName);
+  newTagASlidesAndTalkName.href = talk.talk_slides_link;
+  newTagASlidesAndTalkName.target = "_blank";
+  newTagASlidesAndTalkName.innerText = talk.talk_name;
 
   const newTagPdate = document.createElement("p");
   newTagArticle.appendChild(newTagPdate);

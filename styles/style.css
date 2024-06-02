@@ -1,63 +1,65 @@
 body {
-    padding: 16px;
-    display: flex;
-    /* o flex-direction column faz o site ser uma coluna só */
-    flex-direction: column;
-    gap: 16px;
-    height: 100vh;
-    justify-content: space-between;
-    /* as duas linhas abaixo estão centralizando tudo */
-    width: min(100% - 4rem, 960px);
-    margin-inline: auto;
+  padding: 16px;
+  display: flex;
+  /* o flex-direction column faz o site ser uma coluna só */
+  flex-direction: column;
+  gap: 16px;
+  height: 100vh;
+  justify-content: space-between;
+  /* as duas linhas abaixo estão centralizando tudo */
+  width: min(100% - 4rem, 960px);
+  margin-inline: auto;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 nav ul {
-    display: inline-flex;
-    gap: 20px;
-    list-style: none;  
-    padding: 0;  
+  display: inline-flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
 }
 
 li a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 footer ul {
-    list-style: none;
-    display: inline-flex;
-    gap: 8px;
+  list-style: none;
+  display: inline-flex;
+  gap: 8px;
 }
 
 main {
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_first_page {
+  display: inline-flex;
 }
 
 .morgs_photo {
-    border-radius: 30%;
-    height: 200px;
-    width: 200px;
-    /* object-fit cover ajusta a imagem ao tamanho definido */
-    object-fit: cover;
+  border-radius: 30%;
+  height: 200px;
+  width: 200px;
+  /* object-fit cover ajusta a imagem ao tamanho definido */
+  object-fit: cover;
 }
 
 .hello_there_text {
-    width: 80ch;
+  width: 80ch;
 }
 
 .about_me_text {
-    width: 80ch;
+  width: 80ch;
 }
-

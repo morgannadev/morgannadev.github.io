@@ -11,11 +11,7 @@ function createArticleCards() {
 }
 
 function createCard(article) {
-  const newTagA = document.createElement("a");
-  newTagA.href = article.article_link;
-
   const newTagDiv = document.createElement("div");
-  newTagA.appendChild(newTagDiv);
   newTagDiv.className = "card_article";
 
   const newTagFigure = document.createElement("figure");
@@ -29,9 +25,11 @@ function createCard(article) {
   const newTagArticle = document.createElement("article");
   newTagDiv.appendChild(newTagArticle);
 
-  const newTagPtitle = document.createElement("p");
-  newTagArticle.appendChild(newTagPtitle);
-  newTagPtitle.innerText = article.article_name;
+  const newTagA = document.createElement("a");
+  newTagA.href = article.article_link;
+  newTagA.target = "_blank";
+  newTagA.innerText = article.article_name;
+  newTagArticle.appendChild(newTagA);
 
   const newTagPDate = document.createElement("p");
   newTagArticle.appendChild(newTagPDate);
@@ -42,5 +40,5 @@ function createCard(article) {
   newTagPtags.innerText = article.article_tags;
 
   const currentTagSection = document.getElementById("articles_cards");
-  currentTagSection.appendChild(newTagA);
+  currentTagSection.appendChild(newTagDiv);
 }

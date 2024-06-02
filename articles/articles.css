@@ -1,22 +1,22 @@
 #articles_cards {
-    display: inline-flex;
-    gap: 10px;
-    max-width: 960px;
-    /* o wrap garante que o conteúdo não ultrapasse o limite do container
+  display: inline-flex;
+  gap: 10px;
+  max-width: 960px;
+  /* o wrap garante que o conteúdo não ultrapasse o limite do container
     que no caso é a section */
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /* essa é a class da div que envolve o card para os artigos */
 .card_article {
-    border: 1px solid black;
-    width: 200px;
-    height: 230px;
-    padding: 5px;
+  border: 1px solid black;
+  width: 200px;
+  height: 230px;
+  padding: 5px;
 }
 
 .card_article > figure > img {
-    width: 12rem;
-    height: 6rem;
-    object-fit: cover;
+  width: 12rem;
+  height: 6rem;
+  object-fit: cover;
 }
