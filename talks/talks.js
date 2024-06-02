@@ -1,6 +1,6 @@
-createTalkCards();
+createOtherCards();
 
-function createTalkCards() {
+function createOtherCards() {
   fetch("talks.json")
     .then((res) => res.json())
     .then((res) => {
