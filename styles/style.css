@@ -52,6 +52,13 @@ footer ul {
   gap: 8px;
 }
 
+footer img {
+  mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
 main {
   justify-content: space-between;
   align-items: center;
