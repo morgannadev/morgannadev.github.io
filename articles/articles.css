@@ -1,6 +1,23 @@
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: normal;
+  color: black;
+  height: 5rem;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
 #articles_cards {
   display: inline-flex;
-  gap: 10px;
+  gap: 13px;
   max-width: 960px;
   /* o wrap garante que o conteúdo não ultrapasse o limite do container
     que no caso é a section */
@@ -9,14 +26,30 @@
 
 /* essa é a class da div que envolve o card para os artigos */
 .card_article {
-  border: 1px solid black;
-  width: 200px;
-  height: 230px;
-  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  width: 250px;
+  height: 250;
+  padding: 7px;
 }
 
 .card_article > figure > img {
-  width: 12rem;
+  width: 15rem;
   height: 6rem;
   object-fit: cover;
+  margin-bottom: 3px;
+  border-radius: 8px;
+}
+
+.article_date {
+  font-size: 0.9rem;
+}
+
+.article_tags {
+  font-size: 0.7rem;
+}
+
+.around_p {
+  display: flex;
+  flex-direction: column;
 }

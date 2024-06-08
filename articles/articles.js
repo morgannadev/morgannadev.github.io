@@ -25,6 +25,10 @@ function createCard(article) {
   const newTagArticle = document.createElement("article");
   newTagDiv.appendChild(newTagArticle);
 
+  const newTagPType = document.createElement("p");
+  newTagArticle.appendChild(newTagPType);
+  newTagPType.innerHTML = "BLOG";
+
   const newTagA = document.createElement("a");
   newTagA.href = article.article_link;
   newTagA.target = "_blank";
@@ -33,11 +37,13 @@ function createCard(article) {
 
   const newTagPDate = document.createElement("p");
   newTagArticle.appendChild(newTagPDate);
-  newTagPDate.innerText = "Publicação em: " + article.article_date;
+  newTagPDate.innerText = "publicação em: " + article.article_date;
+  newTagPDate.className = "article_date";
 
   const newTagPtags = document.createElement("p");
   newTagArticle.appendChild(newTagPtags);
-  newTagPtags.innerText = article.article_tags;
+  newTagPtags.innerText = article.article_tags.join(" ");
+  newTagPtags.className = "article_tags";
 
   const currentTagSection = document.getElementById("articles_cards");
   currentTagSection.appendChild(newTagDiv);

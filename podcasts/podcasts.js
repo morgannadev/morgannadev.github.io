@@ -56,7 +56,7 @@ function createCard(podcast) {
 
   const newTagPtags = document.createElement("p");
   newTagArticle.appendChild(newTagPtags);
-  newTagPtags.innerText = podcast.podcast_tags;
+  newTagPtags.innerText = podcast.podcast_tags.join(" ");
 
   const currentTagSection = document.getElementById("podcasts_cards");
   currentTagSection.appendChild(newTagDiv);

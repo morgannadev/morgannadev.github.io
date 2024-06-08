@@ -46,7 +46,7 @@ function createCard(other) {
   newTagArticle.appendChild(newTagPDate);
 
   const newTagPTags = document.createElement("p");
-  newTagPTags.innerText = other.other_tags.join(", ");
+  newTagPTags.innerText = other.other_tags.join(" ");
   newTagArticle.appendChild(newTagPTags);
 
   const currentTagSection = document.getElementById("other_cards");

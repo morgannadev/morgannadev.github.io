@@ -3,7 +3,8 @@
 /* variáveis globais para o CSS */
 /* para utilizar, chama onde precisa como var(--nome-da-variável) */
 :root {
-  --icon-social-media-color: #583fb1;
+  --icon-social-media-color: #003fb0;
+  --text-title: black;
 }
 
 body {
@@ -49,14 +50,7 @@ footer {
 footer ul {
   list-style: none;
   display: inline-flex;
-  gap: 8px;
-}
-
-footer img {
-  mask-size: 100%;
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  mask-position: center;
+  height: 2rem;
 }
 
 main {
@@ -68,8 +62,9 @@ ul li a svg {
   width: 1.5rem;
   height: 1.5rem;
   color: var(--icon-social-media-color);
+  margin: 0.5rem;
 }
 
-/* .footer_social {
-  border: 1px solid black;
-} */
+ul li a svg:hover {
+  transform: scale(1.5);
+}

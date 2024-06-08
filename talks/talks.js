@@ -56,7 +56,7 @@ function createCard(talk) {
 
   const newTagPtags = document.createElement("p");
   newTagArticle.appendChild(newTagPtags);
-  newTagPtags.innerText = talk.talk_tags;
+  newTagPtags.innerText = talk.talk_tags.join(" ");
 
   const currentTagSection = document.getElementById("talks_cards");
   currentTagSection.appendChild(newTagDiv);
