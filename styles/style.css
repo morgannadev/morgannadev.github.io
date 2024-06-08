@@ -3,8 +3,8 @@
 /* variáveis globais para o CSS */
 /* para utilizar, chama onde precisa como var(--nome-da-variável) */
 :root {
-  --icon-social-media-color: #003fb0;
-  --text-title: black;
+  --icon-social-media-color: black;
+  --text-title-color: black;
 }
 
 body {

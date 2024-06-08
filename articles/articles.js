@@ -27,7 +27,8 @@ function createCard(article) {
 
   const newTagPType = document.createElement("p");
   newTagArticle.appendChild(newTagPType);
-  newTagPType.innerHTML = "BLOG";
+  newTagPType.innerHTML = "POST";
+  newTagPType.className = "text_post";
 
   const newTagA = document.createElement("a");
   newTagA.href = article.article_link;
