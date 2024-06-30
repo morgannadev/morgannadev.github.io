@@ -5,6 +5,7 @@
 :root {
   --icon-social-media-color: black;
   --text-title-color: black;
+  --li-text-menu: black;
 }
 
 body {
@@ -37,6 +38,7 @@ nav ul {
 
 li a {
   text-decoration: none;
+  color: var(--li-text-menu);
 }
 
 footer {

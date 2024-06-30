@@ -1,22 +1,67 @@
+h1 {
+  margin-bottom: 5px;
+}
+
+.other_organization_name {
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: gray;
+  padding-bottom: 0.3rem;
+}
+
+.other_link_name {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+  height: 3rem;
+}
+
+.other_link_name:hover {
+  text-decoration: underline;
+}
+
+.other_name {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+  height: 3rem;
+}
+
 #other_cards {
-  display: inline-flex;
-  gap: 10px;
-  max-width: 960px;
-  /* o wrap garante que o conteúdo não ultrapasse o limite do container
-      que no caso é a section */
-  flex-wrap: wrap;
+  display: grid;
+  /* aqui estamos definindo tamanho */
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  grid-gap: 1.5rem;
 }
 
 /* essa é a class da div que envolve o card para os artigos */
 .card_other {
-  border: 1px solid black;
-  width: 260px;
-  height: 220px;
-  padding: 5px;
+  border: 1px solid gray;
+  /* border-radius-interno + padding */
+  border-radius: 16px;
+  width: 100%;
+  padding: 8px;
+}
+
+.card_other:hover {
+  transform: scale(1.02);
 }
 
 .card_other > figure > img {
-  width: 16rem;
-  height: 7rem;
+  width: 100%;
   object-fit: cover;
+  margin-bottom: 3px;
+  border-radius: 8px;
+}
+
+.other_date {
+  font-size: 0.8rem;
+}
+
+.other_tags {
+  font-size: 0.7rem;
 }

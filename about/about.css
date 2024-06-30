@@ -1,7 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
 h1 {
   padding-block: 2rem;
 }
 
 p {
   padding-block: 1rem;
+}
+
+/* o nome na página */
+p:nth-child(4) {
+  font-family: "Cookie", cursive;
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: normal;
 }

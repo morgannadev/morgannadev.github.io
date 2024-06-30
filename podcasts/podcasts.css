@@ -11,6 +11,10 @@ h1 {
   height: 5rem;
 }
 
+.podcast_episode_link:hover {
+  text-decoration: underline;
+}
+
 #podcasts_cards {
   display: grid;
   /* aqui estamos definindo tamanho */
