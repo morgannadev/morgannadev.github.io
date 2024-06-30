@@ -1,27 +1,59 @@
+h1 {
+  margin-bottom: 5px;
+}
+
+.podcast_episode_link {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: black;
+  height: 5rem;
+}
+
 #podcasts_cards {
-  display: inline-flex;
-  gap: 10px;
-  max-width: 960px;
-  /* o wrap garante que o conteúdo não ultrapasse o limite do container
-      que no caso é a section */
-  flex-wrap: wrap;
+  display: grid;
+  /* aqui estamos definindo tamanho */
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  grid-gap: 1.5rem;
 }
 
 /* essa é a class da div que envolve o card para os artigos */
 .card_podcast {
-  border: 1px solid black;
-  width: 260px;
-  height: 300px;
-  padding: 5px;
+  border: 1px solid gray;
+  /* border-radius-interno + padding */
+  border-radius: 16px;
+  width: 100%;
+  padding: 8px;
+}
+
+.card_podcast:hover {
+  transform: scale(1.02);
 }
 
 .card_podcast > figure > img {
-  width: 16rem;
-  height: 9rem;
+  width: 100%;
   object-fit: cover;
+  margin-bottom: 3px;
+  border-radius: 8px;
 }
 
 .podcast_video {
   display: flex;
   justify-content: space-between;
+}
+
+.podcast_date {
+  font-size: 0.8rem;
+}
+
+.podcast_tags {
+  font-size: 0.7rem;
+}
+
+.podcast_name {
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: gray;
+  padding-bottom: 0.3rem;
 }

@@ -1,3 +1,7 @@
+h1 {
+  margin-bottom: 5px;
+}
+
 article {
   display: flex;
   flex-direction: column;
@@ -30,6 +34,10 @@ article a:hover {
   border-radius: 16px;
   width: 100%;
   padding: 8px;
+}
+
+.card_article:hover {
+  transform: scale(1.02);
 }
 
 .card_article > figure > img {

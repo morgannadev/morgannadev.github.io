@@ -66,5 +66,9 @@ ul li a svg {
 }
 
 ul li a svg:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
+}
+
+.page_information {
+  margin-bottom: 20px;
 }
