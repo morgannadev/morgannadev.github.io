@@ -1,0 +1,60 @@
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: normal;
+  color: black;
+  height: 5.8rem;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+#articles_cards {
+  display: grid;
+  /* aqui estamos definindo tamanho */
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-gap: 1rem;
+}
+
+/* essa é a class da div que envolve o card para os artigos */
+.card_article {
+  border: 1px solid gray;
+  /* border-radius-interno + padding */
+  border-radius: 16px;
+  width: 100%;
+  padding: 8px;
+}
+
+.card_article > figure > img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 3px;
+  border-radius: 8px;
+}
+
+.article_date {
+  font-size: 0.8rem;
+}
+
+.article_tags {
+  font-size: 0.7rem;
+}
+
+.around_p {
+  display: flex;
+  flex-direction: column;
+}
+
+.text_post {
+  font-size: 0.7rem;
+  font-weight: bolder;
+  color: gray;
+  padding-bottom: 0.3rem;
+}

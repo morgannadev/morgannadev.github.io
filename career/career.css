@@ -1,0 +1,9 @@
+.card_career {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_career figure img {
+  width: 5rem;
+}

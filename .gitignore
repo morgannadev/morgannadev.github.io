@@ -1,8 +1,0 @@
-# Python
-__pycache__/
-
-# venv
-venv/
-
-# Pelican
-output/
