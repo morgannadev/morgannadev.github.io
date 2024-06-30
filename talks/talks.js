@@ -32,6 +32,7 @@ function createCard(talk) {
   const newTagPevent = document.createElement("p");
   newTagDivEventVideo.appendChild(newTagPevent);
   newTagPevent.innerText = talk.talk_event;
+  newTagPevent.className = "talk_event_name";
 
   if (talk.talk_video_link) {
     const newTagAvideo = document.createElement("a");
@@ -49,14 +50,17 @@ function createCard(talk) {
   newTagASlidesAndTalkName.href = talk.talk_slides_link;
   newTagASlidesAndTalkName.target = "_blank";
   newTagASlidesAndTalkName.innerText = talk.talk_name;
+  newTagASlidesAndTalkName.className = "talk_name_link";
 
   const newTagPdate = document.createElement("p");
   newTagArticle.appendChild(newTagPdate);
-  newTagPdate.innerText = "Apresentada em: " + talk.talk_date;
+  newTagPdate.innerText = "Apresentação em: " + talk.talk_date;
+  newTagPdate.className = "talk_date";
 
   const newTagPtags = document.createElement("p");
   newTagArticle.appendChild(newTagPtags);
   newTagPtags.innerText = talk.talk_tags.join(" ");
+  newTagPtags.className = "talk_tags";
 
   const currentTagSection = document.getElementById("talks_cards");
   currentTagSection.appendChild(newTagDiv);

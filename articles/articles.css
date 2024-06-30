@@ -27,10 +27,6 @@ article a:hover {
   grid-gap: 1rem;
 }
 
-.page_information {
-  margin-bottom: 20px;
-}
-
 /* essa é a class da div que envolve o card para os artigos */
 .card_article {
   border: 1px solid gray;
