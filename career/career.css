@@ -6,6 +6,10 @@ h2 {
   margin: 20px 0 20px 0;
 }
 
+.career_sections {
+  display: flex;
+}
+
 .card_career {
   display: inline-flex;
   align-items: center;
@@ -38,5 +42,22 @@ h2 {
 
 .career_descrition {
   font-size: 0.9rem;
-  margin-bottom: 10px;
+  margin: 0 3rem 3rem 0;
+  text-align: justify;
+}
+
+.card_education {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_education figure img {
+  width: 4rem;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+
+.card_education figure img:hover {
+  transform: scale(1.1);
 }
