@@ -1,3 +1,11 @@
+h1 {
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin: 20px 0 20px 0;
+}
+
 .card_career {
   display: inline-flex;
   align-items: center;
@@ -5,5 +13,30 @@
 }
 
 .card_career figure img {
-  width: 5rem;
+  width: 4rem;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+
+.card_career figure img:hover {
+  transform: scale(1.1);
+}
+
+.career_title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.career_employee {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.career_period {
+  font-size: 0.7rem;
+}
+
+.career_descrition {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
 }
