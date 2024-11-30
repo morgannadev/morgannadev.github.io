@@ -3,16 +3,17 @@
 }
 
 .morgs_photo {
-  border-radius: 60px;
+  border-radius: 200px;
   /* object-fit cover ajusta a imagem ao tamanho definido */
   /* object-fit: cover; */
+  width: 250px;
 }
 
 .hello_there_text {
   width: 40ch;
   font-weight: bold;
   font-size: x-large;
-  color: var(--text-title);
+  color: var(--text-title-color);
 }
 
 .about_me_text {

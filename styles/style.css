@@ -4,7 +4,7 @@
 /* para utilizar, chama onde precisa como var(--nome-da-variável) */
 :root {
   --icon-social-media-color: black;
-  --text-title-color: black;
+  --text-title-color: #002699;
   --li-text-menu: black;
 }
 
