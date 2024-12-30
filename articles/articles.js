@@ -1,14 +1,17 @@
-createArticleCards();
+let articles = [];
 
 function createArticleCards() {
   fetch("articles.json")
     .then((res) => res.json())
+    .then((res) => (articles = res))
     .then((res) => {
       res.map((article) => {
         createCard(article);
       });
     });
 }
+
+createArticleCards();
 
 function createCard(article) {
   const newTagDiv = document.createElement("div");
@@ -49,3 +52,30 @@ function createCard(article) {
   const currentTagSection = document.getElementById("articles_cards");
   currentTagSection.appendChild(newTagDiv);
 }
+
+const inputArticle = document.getElementById("filter_article");
+const sectionArticle = document.getElementById("articles_cards");
+
+function showFilteredArticles(lista) {
+  sectionArticle.innerHTML = "";
+
+  if (lista.length === 0) {
+    sectionArticle.innerHTML = "<p>Nenhum artigo encontrado.</p>";
+    return;
+  }
+
+  lista.forEach((artigo) => {
+    createCard(artigo);
+  });
+}
+
+function filterArticles() {
+  const word = inputArticle.value.toLowerCase();
+  const filteredArticles = articles.filter((artigo) =>
+    artigo.article_tags.some((tag) => tag.toLowerCase().includes(word))
+  );
+
+  showFilteredArticles(filteredArticles);
+}
+
+inputArticle.addEventListener("input", filterArticles);

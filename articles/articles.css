@@ -66,3 +66,9 @@ article a:hover {
   color: gray;
   padding-bottom: 0.3rem;
 }
+
+#filter_article {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
