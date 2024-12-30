@@ -47,6 +47,7 @@ h1 {
   object-fit: cover;
   margin-bottom: 3px;
   border-radius: 8px;
+  aspect-ratio: 16 / 9;
 }
 
 .event_video {
@@ -60,4 +61,10 @@ h1 {
 
 .talk_tags {
   font-size: 0.7rem;
+}
+
+#filter_talk {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }

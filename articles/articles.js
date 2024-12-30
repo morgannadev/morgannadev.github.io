@@ -56,23 +56,23 @@ function createCard(article) {
 const inputArticle = document.getElementById("filter_article");
 const sectionArticle = document.getElementById("articles_cards");
 
-function showFilteredArticles(lista) {
+function showFilteredArticles(list) {
   sectionArticle.innerHTML = "";
 
-  if (lista.length === 0) {
+  if (list.length === 0) {
     sectionArticle.innerHTML = "<p>Nenhum artigo encontrado.</p>";
     return;
   }
 
-  lista.forEach((artigo) => {
+  list.forEach((artigo) => {
     createCard(artigo);
   });
 }
 
 function filterArticles() {
   const word = inputArticle.value.toLowerCase();
-  const filteredArticles = articles.filter((artigo) =>
-    artigo.article_tags.some((tag) => tag.toLowerCase().includes(word))
+  const filteredArticles = articles.filter((article) =>
+    article.article_tags.some((tag) => tag.toLowerCase().includes(word))
   );
 
   showFilteredArticles(filteredArticles);
