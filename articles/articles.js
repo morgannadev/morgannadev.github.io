@@ -64,8 +64,8 @@ function showFilteredArticles(list) {
     return;
   }
 
-  list.forEach((artigo) => {
-    createCard(artigo);
+  list.forEach((article) => {
+    createCard(article);
   });
 }
 

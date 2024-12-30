@@ -1,14 +1,17 @@
-createPodcastCards();
+let podcasts = [];
 
 function createPodcastCards() {
   fetch("podcasts.json")
     .then((res) => res.json())
+    .then((res) => (podcasts = res))
     .then((res) => {
       res.map((podcast) => {
         createCard(podcast);
       });
     });
 }
+
+createPodcastCards();
 
 function createCard(podcast) {
   const newTagDiv = document.createElement("div");
@@ -65,3 +68,30 @@ function createCard(podcast) {
   const currentTagSection = document.getElementById("podcasts_cards");
   currentTagSection.appendChild(newTagDiv);
 }
+
+const inputPodcast = document.getElementById("filter_podcast");
+const sectionPodcast = document.getElementById("podcasts_cards");
+
+function showFilteredPodcasts(list) {
+  sectionPodcast.innerHTML = "";
+
+  if (list.length === 0) {
+    sectionPodcast.innerHTML = "<p>Nenhum podcast encontrado.</p>";
+    return;
+  }
+
+  list.forEach((podcast) => {
+    createCard(podcast);
+  });
+}
+
+function filterPodcasts() {
+  const word = inputPodcast.value.toLowerCase();
+  const filteredPodcasts = podcasts.filter((podcast) =>
+    podcast.podcast_tags.some((tag) => tag.toLowerCase().includes(word))
+  );
+
+  showFilteredPodcasts(filteredPodcasts);
+}
+
+inputPodcast.addEventListener("input", filterPodcasts);
