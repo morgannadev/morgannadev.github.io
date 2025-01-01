@@ -56,6 +56,7 @@ h1 {
   object-fit: cover;
   margin-bottom: 3px;
   border-radius: 8px;
+  aspect-ratio: 16 / 9;
 }
 
 .other_date {
@@ -64,4 +65,10 @@ h1 {
 
 .other_tags {
   font-size: 0.7rem;
+}
+
+#filter_other {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }

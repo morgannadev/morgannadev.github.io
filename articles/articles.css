@@ -45,6 +45,7 @@ article a:hover {
   object-fit: cover;
   margin-bottom: 3px;
   border-radius: 8px;
+  aspect-ratio: 16 / 9;
 }
 
 .article_date {
@@ -65,4 +66,10 @@ article a:hover {
   font-weight: bolder;
   color: gray;
   padding-bottom: 0.3rem;
+}
+
+#filter_article {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }

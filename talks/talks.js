@@ -1,14 +1,17 @@
-createOtherCards();
+let talks = [];
 
-function createOtherCards() {
+function createTalkCards() {
   fetch("talks.json")
     .then((res) => res.json())
+    .then((res) => (talks = res))
     .then((res) => {
       res.map((talk) => {
         createCard(talk);
       });
     });
 }
+
+createTalkCards();
 
 function createCard(talk) {
   const newTagDiv = document.createElement("div");
@@ -65,3 +68,30 @@ function createCard(talk) {
   const currentTagSection = document.getElementById("talks_cards");
   currentTagSection.appendChild(newTagDiv);
 }
+
+const inputTalk = document.getElementById("filter_talk");
+const sectionTalk = document.getElementById("talks_cards");
+
+function showFilteredTalks(list) {
+  sectionTalk.innerHTML = "";
+
+  if (list.length === 0) {
+    sectionTalk.innerHTML = "<p>Nenhuma palestra encontrada.</p>";
+    return;
+  }
+
+  list.forEach((talk) => {
+    createCard(talk);
+  });
+}
+
+function filterTalks() {
+  const word = inputTalk.value.toLowerCase();
+  const filteredTalks = talks.filter((talk) =>
+    talk.talk_tags.some((tag) => tag.toLowerCase().includes(word))
+  );
+
+  showFilteredTalks(filteredTalks);
+}
+
+inputTalk.addEventListener("input", filterTalks);

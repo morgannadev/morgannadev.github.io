@@ -2,17 +2,11 @@
   display: inline-flex;
 }
 
-.morgs_photo {
-  border-radius: 60px;
-  /* object-fit cover ajusta a imagem ao tamanho definido */
-  /* object-fit: cover; */
-}
-
 .hello_there_text {
-  width: 40ch;
+  width: 30ch;
   font-weight: bold;
   font-size: x-large;
-  color: var(--text-title);
+  color: var(--text-title-color);
 }
 
 .about_me_text {

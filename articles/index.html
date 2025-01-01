@@ -8,7 +8,7 @@
     <link href="articles.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/js/loader.js" defer></script>
-    <script src="articles.js"></script>
+
     <title>Artigos</title>
   </head>
   <body>
@@ -19,8 +19,14 @@
         Aqui estão os artigos que já escrevi em blogs pessoais ou para trabalho.
         Aproveitem e fiquem à vontade para mandar feedbacks.
       </p>
+      <input
+        type="text"
+        id="filter_article"
+        placeholder="Digite o assunto do artigo para pesquisar 🔍"
+      />
       <section id="articles_cards"></section>
     </main>
     <footer id="footer"></footer>
+    <script src="articles.js"></script>
   </body>
 </html>

@@ -8,7 +8,6 @@
     <link href="talks.css" rel="stylesheet" type="text/css" />
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="/js/loader.js" defer></script>
-    <script src="talks.js"></script>
     <title>Palestras</title>
   </head>
   <body>
@@ -19,8 +18,14 @@
         Aqui estão as palestras que já apresentei em eventos, comunidades e para
         o trabalho. Aproveitem e fiquem à vontade para mandar feedbacks.
       </p>
+      <input
+        type="text"
+        id="filter_talk"
+        placeholder="Digite o assunto da palestra para pesquisar 🔍"
+      />
       <section id="talks_cards"></section>
     </main>
     <footer id="footer"></footer>
+    <script src="talks.js"></script>
   </body>
 </html>

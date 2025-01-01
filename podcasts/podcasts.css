@@ -40,6 +40,7 @@ h1 {
   object-fit: cover;
   margin-bottom: 3px;
   border-radius: 8px;
+  aspect-ratio: 16 / 9;
 }
 
 .podcast_video {
@@ -60,4 +61,10 @@ h1 {
   font-weight: bolder;
   color: gray;
   padding-bottom: 0.3rem;
+}
+
+#filter_podcast {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
 }

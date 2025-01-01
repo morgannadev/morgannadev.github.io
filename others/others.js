@@ -1,14 +1,17 @@
-createOtherCards();
+let others = [];
 
 function createOtherCards() {
   fetch("others.json")
     .then((res) => res.json())
+    .then((res) => (others = res))
     .then((res) => {
       res.map((other) => {
         createCard(other);
       });
     });
 }
+
+createOtherCards();
 
 function createCard(other) {
   const newTagDiv = document.createElement("div");
@@ -57,3 +60,30 @@ function createCard(other) {
   const currentTagSection = document.getElementById("other_cards");
   currentTagSection.appendChild(newTagDiv);
 }
+
+const inputOther = document.getElementById("filter_other");
+const sectionOther = document.getElementById("other_cards");
+
+function showFilteredOthers(list) {
+  sectionOther.innerHTML = "";
+
+  if (list.length === 0) {
+    sectionOther.innerHTML = "<p>Não encontrado.</p>";
+    return;
+  }
+
+  list.forEach((other) => {
+    createCard(other);
+  });
+}
+
+function filterOthers() {
+  const word = inputOther.value.toLowerCase();
+  const filteredOthers = others.filter((other) =>
+    other.other_tags.some((tag) => tag.toLowerCase().includes(word))
+  );
+
+  showFilteredOthers(filteredOthers);
+}
+
+inputOther.addEventListener("input", filterOthers);
