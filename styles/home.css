@@ -2,15 +2,8 @@
   display: inline-flex;
 }
 
-.morgs_photo {
-  border-radius: 200px;
-  /* object-fit cover ajusta a imagem ao tamanho definido */
-  /* object-fit: cover; */
-  width: 250px;
-}
-
 .hello_there_text {
-  width: 40ch;
+  width: 30ch;
   font-weight: bold;
   font-size: x-large;
   color: var(--text-title-color);
