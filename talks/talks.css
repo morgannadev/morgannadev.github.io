@@ -48,6 +48,11 @@ h1 {
   margin-bottom: 3px;
   border-radius: 8px;
   aspect-ratio: 16 / 9;
+  filter: grayscale(1);
+}
+
+.card_talk > figure > img:hover {
+  filter: grayscale(0);
 }
 
 .event_video {
