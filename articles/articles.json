@@ -1,12 +1,660 @@
 [
   {
-    "article_name": "Por que faço parte de comunidades de tecnologia e como isso impactou a minha vida",
-    "article_image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9b1ftOO3E0sCc_z6tU8qZQ.png",
-    "article_image_description": "nuvem de palavras de tecnologia",
-    "article_link": "https://medium.com/@morgannadev/por-que-fa%C3%A7o-parte-de-comunidades-de-tecnologia-e-como-isso-impactou-a-minha-vida-229948fb68da",
-    "article_date": "19/02/2018",
+    "article_name": "Quais tipos de logs considerar na sua automação Python RPA e como gerenciá-los – Parte 1",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/07/Quais-tipos-de-logs-considerar-na-sua-automacao-Python-RPA-e-como-gerencia-los-Parte-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/07/10/quais-tipos-de-logs-considerar-na-sua-automacao-python-rpa-como-gerencia-los-parte-um/",
+    "article_date": "10/07/2023",
     "article_language": "português",
-    "article_tags": ["#tecnologia", "#comunidade", "#impacto"]
+    "article_tags": ["#automação", "#logs", "#rpa"]
+  },
+  {
+    "article_name": "What types of logs to consider in your Python RPA automation and how to manage them – Part 1",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/07/What-types-of-logs-to-consider-in-your-Python-RPA-automation-and-how-to-manage-them-Part-1-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/07/10/what-types-of-logs-to-consider-in-your-python-rpa-automation-and-how-to-manage-them-part-one/",
+    "article_date": "10/07/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#logs", "#rpa"]
+  },
+  {
+    "article_name": "Hello World challenges: creating my first bot with Python RPA using BotCity",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fay9l3081xf2r2smvcaus.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/hello-world-challenges-creating-my-first-bot-with-python-rpa-using-botcity-4ab1",
+    "article_date": "20/06/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#iniciante", "#rpa"]
+  },
+  {
+    "article_name": "Os desafios do Hello World: criando meu primeiro bot com Python RPA utilizando BotCity",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8dsxosb82kzgtoafx072.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/os-desafios-do-hello-world-criando-meu-primeiro-bot-com-python-rpa-utilizando-botcity-1a0p",
+    "article_date": "20/06/2023",
+    "article_language": "português",
+    "article_tags": ["#automação", "#iniciante", "#rpa"]
+  },
+  {
+    "article_name": "How to use GitHub Actions to keep your Python RPA project updated",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flu8oq0pe1d3gdz77kx7o.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/how-to-use-github-actions-to-keep-your-python-rpa-project-updated-gia",
+    "article_date": "13/06/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#github actions", "#rpa"]
+  },
+  {
+    "article_name": "Como utilizar o GitHub Actions para manter seu projeto Python RPA atualizado",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjz7ub44i4ife7sjumi16.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/como-utilizar-o-github-actions-para-manter-seu-projeto-python-rpa-atualizado-o0i",
+    "article_date": "12/06/2023",
+    "article_language": "português",
+    "article_tags": ["#automação", "#github actions", "#rpa"]
+  },
+  {
+    "article_name": "Chatbot, bot, and RPA: what are the differences?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuuj1j8181iy08r4ukwli.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/chatbot-bot-and-rpa-what-are-the-differences-4621",
+    "article_date": "24/05/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#chatbot", "#bot"]
+  },
+  {
+    "article_name": "Understanding code, no-code, and low-code in automation",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh64vgg98anuv0pjc7fo9.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/understanding-code-no-code-and-low-code-in-automation-34lg",
+    "article_date": "24/05/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#low code", "#no code"]
+  },
+  {
+    "article_name": "What is RPA? (and why it's not going to take your job)",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F78fxw26whxngevtz68v7.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/what-is-rpa-and-why-its-not-going-to-take-your-job-39f9",
+    "article_date": "24/05/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#rpa"]
+  },
+  {
+    "article_name": "Novas funcionalidades: Visualização dos runners e tasks, informações no alerta de erros por e-mail e plugin do Office 365",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/05/Capa-artigo-Novas-funcionalidades-visualizacao-dos-runners-e-tasks-informacoes-no-alerta-de-erros-por-e-mail-e-plugin-do-Office-365-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/05/09/novas-funcionalidades-visualizacao-runners-tasks-informacoes-alerta-erros-email-plugin-office-365/",
+    "article_date": "09/05/2023",
+    "article_language": "português",
+    "article_tags": ["#novidades", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "New features: Runner and task visualization, error alert information by e-mail and Office 365 plugin",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/05/Article-New-features-visualization-of-runners-and-tasks-error-alert-information-via-email-and-Office-365-plugin-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/05/09/new-features-runner-and-task-visualization-error-alert-information-by-email-and-office-365-plugin/",
+    "article_date": "09/05/2023",
+    "article_language": "inglês",
+    "article_tags": ["#novidades", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "Além do Python RPA: Orquestre qualquer tipo de automação com o BotCity Maestro",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/05/Capa-artigo-Alem-do-Python-RPA-Orquestre-qualquer-tipo-de-automacao-com-o-BotCity-Maestro-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/05/02/alem-do-python-rpa-orquestre-qualquer-tipo-de-automacao-com-o-botcity-maestro/",
+    "article_date": "02/05/2023",
+    "article_language": "português",
+    "article_tags": ["#orquestração", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "Beyond Python RPA: Orchestrate any automation with BotCity Maestro",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/05/Article-Beyond-Python-RPA-Orchestrate-any-automation-with-BotCity-Maestro.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/05/02/beyond-python-rpa-orchestrate-any-automation-with-botcity-maestro/",
+    "article_date": "02/05/2023",
+    "article_language": "inglês",
+    "article_tags": ["#orquestração", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "Novas funcionalidades: Tela da organização, telemetria de runners, runner offline e muito mais das ferramentas Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/04/Capa-artigo-Novas-funcionalidades-Tela-da-organizacao-telemetria-de-runners-runner-offline-e-muito-mais-das-ferramentas-Python-RPA.-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/04/25/novas-funcionalidades-organizacao-telemetria-runner-offline-muito-mais-ferramentas-python-rpa/",
+    "article_date": "25/04/2023",
+    "article_language": "português",
+    "article_tags": ["#novidades", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "New features: Organization screen, runners' telemetry, runner offline, and much more from Python RPA tools",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/04/Capa-artigo-Novas-funcionalidades-Tela-da-organizacao-telemetria-de-runners-runner-offline-e-muito-mais-das-ferramentas-Python-RPA.-2-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/04/25/new-features-organization-runners-telemetry-runner-offline-more-python-rpa-tools/",
+    "article_date": "25/04/2023",
+    "article_language": "inglês",
+    "article_tags": ["#novidades", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "Chatbot, bot e RPA: quais as diferenças?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fad6h1xlqkp6xqhydvbuc.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/chatbot-bot-e-rpa-quais-as-diferencas-539g",
+    "article_date": "23/04/2023",
+    "article_language": "português",
+    "article_tags": ["#chatbot", "#bot", "#rpa"]
+  },
+  {
+    "article_name": "Por qual linguagem de programação devo começar?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8x3wg2hgj56p5t8fji95.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/04/11/novas-funcionalidades-informacoes-nas-tarefas-tipos-de-bots-alem-python-rpa-integracao-com-microsoft-teams-e-muito-mais/",
+    "article_date": "16/04/2023",
+    "article_language": "português",
+    "article_tags": ["#programação", "#desenvolvimento"]
+  },
+  {
+    "article_name": "Novas funcionalidades: Informações nas tarefas, tipos de bots além de Python RPA, integração com Microsoft Teams e muito mais",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/04/Capa-artigo-Novas-funcionalidades-Informacoes-nas-tarefas-tipos-de-bots-alem-de-Python-RPA-integracao-com-Microsoft-Teams-e-muito-mais.-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/04/11/novas-funcionalidades-informacoes-nas-tarefas-tipos-de-bots-alem-python-rpa-integracao-com-microsoft-teams-e-muito-mais/",
+    "article_date": "11/04/2023",
+    "article_language": "português",
+    "article_tags": ["#novidades", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "New features: Tasks information, types of bots beyond Python RPA, Microsoft Teams integration, and more",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/04/Article-NEW-FEATURES-Tasks-information-types-of-bots-beyond-Python-RPA-Microsoft-Teams-integration-and-more.-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/04/11/new-features-tasks-information-types-of-bots-beyond-python-rpa-microsoft-teams-integration-and-more/",
+    "article_date": "11/04/2023",
+    "article_language": "inglês",
+    "article_tags": ["#novidades", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Entendendo code, no-code e low-code na automação",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcdfy25wxri1g70bz1sct.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/entendendo-code-no-code-e-low-code-na-automacao-3bcd",
+    "article_date": "10/04/2023",
+    "article_language": "português",
+    "article_tags": ["#low code", "#no code", "#automação"]
+  },
+  {
+    "article_name": "Conheça as novidades nas ferramentas Python RPA da BotCity",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Capa-artigo-Conheca-as-novidades-nas-Ferramentas-Python-RPA-da-BotCity.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/28/conheca-as-novidades-nas-ferramentas-python-rpa-da-botcity/",
+    "article_date": "28/03/2023",
+    "article_language": "português",
+    "article_tags": ["#novidades", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "What's new in BotCity's Python RPA tools",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Article-Whats-new-in-BotCitys-Python-RPA-tools-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/28/whats-new-in-botcitys-python-rpa-tools/",
+    "article_date": "28/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#novidades", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "How to decide between using API and using RPA?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Article-2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/21/how-to-decide-between-using-api-and-using-rpa/",
+    "article_date": "21/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#api", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Como tomar a decisão entre utilizar API e utilizar RPA?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Capa-artigo-API-ou-RPA.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/21/como-tomar-decisao-entre-utilizar-api-utilizar-rpa/",
+    "article_date": "21/03/2023",
+    "article_language": "português",
+    "article_tags": ["#api", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Como descrever imagens nos slides feitos no Canva",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fle38da2k0r0coikk7iow.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-descrever-imagens-nos-slides-feitos-no-canva-2800",
+    "article_date": "19/03/2023",
+    "article_language": "português",
+    "article_tags": ["#selenium", "#orquestração", "#automação"]
+  },
+  {
+    "article_name": "Orchestrating and managing your Selenium automation",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/26.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/17/orchestrating-and-managing-your-selenium-automation/",
+    "article_date": "17/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#selenium", "#orquestração", "#automação"]
+  },
+  {
+    "article_name": "Orquestrando e gerenciando sua automação Selenium em Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/25.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/17/orquestrando-e-gerenciando-sua-automacao-selenium/",
+    "article_date": "17/03/2023",
+    "article_language": "português",
+    "article_tags": ["#selenium", "#orquestração", "#automação"]
+  },
+  {
+    "article_name": "Mulheres na Tecnologia",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0huqqxtdjldg3i0iqg9a.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/mulheres-na-tecnologia-51mo",
+    "article_date": "17/03/2023",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#diversidade", "#comunidade"]
+  },
+  {
+    "article_name": "Novidades da nossa documentação para a linguagem Java",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Capa-Artigo-2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/14/novidades-nossa-documentacao-linguagem-java/",
+    "article_date": "14/03/2023",
+    "article_language": "português",
+    "article_tags": ["#java", "#documentação", "#novidades"]
+  },
+  {
+    "article_name": "What's new in our documentation for the Java language",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faf0r4p1vtqtw0vsge0n2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/14/new-our-documentation-java-language/",
+    "article_date": "14/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#java", "#documentação", "#novidades"]
+  },
+  {
+    "article_name": "Comunidades, organizações e iniciativas de tecnologia para meninas e mulheres",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faf0r4p1vtqtw0vsge0n2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/comunidades-organizacoes-e-iniciativas-de-tecnologia-para-meninas-e-mulheres-1i8d",
+    "article_date": "09/03/2023",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#comunidade", "#diversidade"]
+  },
+  {
+    "article_name": "Women changing the world of technology",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Orange-Modern-Minimal-Blog-Writing-YouTube-Thumbnail-1-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/07/women-changing-world-technology/",
+    "article_date": "07/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#mulheres", "#comunidade", "#diversidade"]
+  },
+  {
+    "article_name": "Mulheres que transformam o mundo da tecnologia",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Orange-Modern-Minimal-Blog-Writing-YouTube-Thumbnail-2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/07/mulheres-transformam-mundo-tecnologia/",
+    "article_date": "07/03/2023",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#comunidade", "#diversidade"]
+  },
+  {
+    "article_name": "The first developer is a woman: Ada Lovelace",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Article-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/06/first-developer-woman-ada-lovelace/",
+    "article_date": "06/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#mulheres", "#ada lovelace", "#diversidade"]
+  },
+  {
+    "article_name": "Conheça a primeira pessoa programadora: Ada Lovelace",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Capa-artigo.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/06/conheca-primeira-pessoa-programadora-ada-lovelace/",
+    "article_date": "06/03/2023",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#ada lovelace", "#diversidade"]
+  },
+  {
+    "article_name": "Initiatives and communities for women in technology",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Article.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/03/03/initiatives-communities-for-women-technology/",
+    "article_date": "03/03/2023",
+    "article_language": "inglês",
+    "article_tags": ["#mulheres", "#comunidade", "#diversidade"]
+  },
+  {
+    "article_name": "Conheça iniciativas e comunidades para mulheres na tecnologia",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/03/Capa-artigo-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/03/03/conheca-iniciativas-comunidades-para-mulheres-tecnologia/",
+    "article_date": "03/03/2023",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#comunidade", "#diversidade"]
+  },
+  {
+    "article_name": "Best practices for developing your Python RPA automations with excellence",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/Orange-Modern-Minimal-Blog-Writing-YouTube-Thumbnail-3-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/02/17/best-practice-developing-python-rpa-with-excellence/",
+    "article_date": "17/02/2023",
+    "article_language": "inglês",
+    "article_tags": ["#python", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Boas práticas para desenvolver suas automações Python RPA com excelência",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/Orange-Modern-Minimal-Blog-Writing-YouTube-Thumbnail-1-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/02/17/boas-praticas-para-desenvolver-python-rpa-com-excelencia/",
+    "article_date": "17/02/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Python RPA can replace tasks, but not people: understanding the automation culture",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/Orange-Modern-Minimal-Blog-Writing-YouTube-Thumbnail-1-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/02/17/python-rpa-can-replace-tasks-not-people-understanding-automation-culture/",
+    "article_date": "17/02/2023",
+    "article_language": "inglês",
+    "article_tags": ["#python", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Python RPA pode substituir tarefas, mas não pessoas: entendendo a cultura da automação",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/12-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/02/17/python-rpa-pode-substituir-tarefas-nao-pessoas-entendendo-cultura-automacao/",
+    "article_date": "17/02/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "E quando o hello world já começa dando errado: a cultura de escrever artigos com tutoriais que só dão certo",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi1u5dtzv19xdyttyy4jg.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/e-quando-o-hello-world-ja-comeca-dando-errado-a-cultura-de-escrever-artigos-com-tutoriais-que-so-dao-certo-379m",
+    "article_date": "16/02/2023",
+    "article_language": "português",
+    "article_tags": ["#hello world", "#erros"]
+  },
+  {
+    "article_name": "Ferramentas para quem é DevRel",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2oquin3690p0wpr1rpp1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/ferramentas-para-quem-e-devrel-3120",
+    "article_date": "15/02/2023",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#ferramentas"]
+  },
+  {
+    "article_name": "7 curiosidades sobre a linguagem Python",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkfdxrc0f8yvs4rzgtfml.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/morgannadev/7-curiosidades-sobre-a-linguagem-python-3im6",
+    "article_date": "15/02/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#história"]
+  },
+  {
+    "article_name": "Resultado da Análise - Pesquisa sobre Meetups (Eventos) de Tecnologia de Comunidades",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F23vdtj8coco31dkhq6uk.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/morgannadev/resultado-da-analise-pesquisa-sobre-meetups-eventos-de-tecnologia-de-comunidades-a80",
+    "article_date": "13/02/2023",
+    "article_language": "português",
+    "article_tags": ["#pesquisa", "#meetup", "#comunidade"]
+  },
+  {
+    "article_name": "Understanding the differences between Runners Desktop and Runners Background in Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/Article.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/02/06/runners-desktop-runners-background/",
+    "article_date": "06/02/2023",
+    "article_language": "inglês",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "Entenda as diferenças entre Runners Desktop e Runners Background no Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/Capa-do-artigo.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/02/06/runners-desktop-runners-background/",
+    "article_date": "06/02/2023",
+    "article_language": "português",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "Why are Python RPA integrations more secure than low-code connectors?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/Orange-Modern-Minimal-Blog-Writing-YouTube-Thumbnail-2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/02/01/python-rpa-integration-more-secure-low-code-connectors/",
+    "article_date": "01/02/2023",
+    "article_language": "inglês",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "Por que as integrações em Python RPA são mais seguras que conectores low-code?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/02/capa-blog.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/02/01/integracoes-python-rpa-seguras-conectores-low-code/",
+    "article_date": "01/02/2023",
+    "article_language": "português",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "O que é RPA? (e por que essa sigla não surgiu para tirar empregos)",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzqs9airg9v7bodkwoivv.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/botcitydev/o-que-e-rpa-e-por-que-essa-sigla-nao-surgiu-para-tirar-empregos-3lee",
+    "article_date": "29/01/2023",
+    "article_language": "português",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "Você conhece os 3 C's da área DevRel?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8tf6aqcyvke0i09z70un.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/voce-conhece-os-3-cs-da-area-devrel-43pl",
+    "article_date": "28/01/2023",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#comunidade"]
+  },
+  {
+    "article_name": "Quero contratar uma pessoa DevRel, e agora?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo2z07tefjjom97vw17ef.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/quero-contratar-uma-pessoa-devrel-e-agora-2jdd",
+    "article_date": "05/01/2023",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#carreira"]
+  },
+  {
+    "article_name": "Deixando seu 'Olá, mundo' com o Python",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fckboswg2uczqy8bc0w0r.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/deixando-seu-ola-mundo-com-o-python-1dga",
+    "article_date": "27/12/2022",
+    "article_language": "português",
+    "article_tags": ["#python", "#desenvolvimento"]
+  },
+  {
+    "article_name": "Melhorando a acessibilidade das suas postagens nas redes sociais",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fckboswg2uczqy8bc0w0r.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/melhorando-a-acessibilidade-das-suas-postagens-nas-redes-sociais-27l5",
+    "article_date": "27/11/2022",
+    "article_language": "português",
+    "article_tags": ["#acessibilidade", "#redes sociais"]
+  },
+  {
+    "article_name": "Construindo um currículo para DevRel",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fckboswg2uczqy8bc0w0r.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/construindo-um-curriculo-para-devrel-1fka",
+    "article_date": "27/10/2022",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#currículo"]
+  },
+  {
+    "article_name": "O que significa o dia da Ada Lovelace?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9nv7ezmtorccm508x0t9.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/o-que-significa-o-dia-da-ada-lovelace-4o8n",
+    "article_date": "23/10/2022",
+    "article_language": "português",
+    "article_tags": ["#ada lovelace", "#mulheres"]
+  },
+  {
+    "article_name": "Pessoas DevRel para você conhecer e acompanhar",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9nv7ezmtorccm508x0t9.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/pessoas-devrel-para-voce-conhecer-e-acompanhar-4iad",
+    "article_date": "25/09/2022",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#comunidade"]
+  },
+  {
+    "article_name": "Os desafios de ser DevRel",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F32xftqbecx6usz2sr1e2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/os-desafios-de-ser-devrel-24po",
+    "article_date": "04/09/2022",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#carreira"]
+  },
+  {
+    "article_name": "O que fazer para se tornar DevRel?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F32xftqbecx6usz2sr1e2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/o-que-fazer-para-se-tornar-devrel-2k59",
+    "article_date": "23/08/2022",
+    "article_language": "português",
+    "article_tags": ["#developer relations", "#carreira"]
+  },
+  {
+    "article_name": "Como deixar as imagens nos documentos no Confluence mais acessíveis",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feybwpumqwt1clpl3v1pf.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-deixar-as-imagens-nos-documentos-no-confluence-mais-acessiveis-4hh1",
+    "article_date": "23/08/2022",
+    "article_language": "português",
+    "article_tags": ["#confluence", "#acessibilidade"]
+  },
+  {
+    "article_name": "O que é DevRel?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fdeucvcg92eipp8as8fye.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/o-que-e-devrel-40fd",
+    "article_date": "22/08/2022",
+    "article_language": "português",
+    "article_tags": ["#comunidade", "#developer relations"]
+  },
+  {
+    "article_name": "Formas de contribuir com as comunidades de tecnologia",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frdoyyrax90ja53e10hxz.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/formas-de-contribuir-com-as-comunidades-de-tecnologia-2mfd",
+    "article_date": "21/08/2022",
+    "article_language": "português",
+    "article_tags": ["#comunidade", "#apoio", "#contribuição"]
+  },
+  {
+    "article_name": "Como deixar as imagens no discord mais acessíveis",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhrl0ynfxdp8t3jo14fah.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-deixar-as-imagens-no-discord-mais-acessiveis-3b56",
+    "article_date": "21/08/2022",
+    "article_language": "português",
+    "article_tags": ["#discord", "#acessibilidade"]
+  },
+  {
+    "article_name": "Como deixar seu e-mail mais acessível",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flto6g0ibsyo96qrkosow.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-deixar-seu-e-mail-mais-acessivel-1ji3",
+    "article_date": "20/08/2022",
+    "article_language": "português",
+    "article_tags": ["#email", "#acessibilidade"]
+  },
+  {
+    "article_name": "Como eu faço para perceber a minha evolução?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fywl2fhc8fneyezhv6grf.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-eu-faco-para-perceber-a-minha-evolucao-cob",
+    "article_date": "18/08/2022",
+    "article_language": "português",
+    "article_tags": ["#carreira", "#reflexão"]
+  },
+  {
+    "article_name": "Você sabe o que é Call for Papers?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe7cdcz46bwh4k4oftq5j.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/voce-sabe-o-que-e-call-for-papers-1lo5",
+    "article_date": "13/07/2022",
+    "article_language": "português",
+    "article_tags": ["#call for papers", "#evento", "#palestra"]
+  },
+  {
+    "article_name": "Criando variáveis no Kotlin - Explorando a documentação",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6h0pyke7azlb508d8a8z.png",
+    "article_image_description": "imagem com o título do artigo e o logo da comunidade kotlinautas",
+    "article_link": "https://dev.to/kotlinautas/criando-variaveis-no-kotlin-explorando-a-documentacao-4a4g",
+    "article_date": "14/11/2021",
+    "article_language": "português",
+    "article_tags": ["#kotlin", "#desenvolvimento", "#variável"]
+  },
+  {
+    "article_name": "Você tem um minuto para a palavra do Live Coding?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F87wwxg3gsit560rtetmr.png",
+    "article_image_description": "imagem de um fone de ouvido e o título do artigo",
+    "article_link": "https://dev.to/feministech/voce-tem-um-minuto-para-a-palavra-do-live-coding-4358",
+    "article_date": "12/05/2021",
+    "article_language": "português",
+    "article_tags": ["#live coding", "#twitch", "#desenvolvimento"]
+  },
+  {
+    "article_name": "Começando no lado backend da força com Kotlin",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fmu2d0hu0rtb2bks2x7x6.png",
+    "article_image_description": "desenho de um computador e o título do artigo",
+    "article_link": "https://dev.to/kotlinautas/comecando-no-lado-backend-da-forca-com-kotlin-2nak",
+    "article_date": "18/12/2020",
+    "article_language": "português",
+    "article_tags": ["#backend", "#kotlin", "#desenvolvimento"]
+  },
+  {
+    "article_name": "Como começar na área de desenvolvimento",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fgvj631pq5cifi2bg6s1z.png",
+    "article_image_description": "um computador com uma lâmpada e o nome do artigo",
+    "article_link": "https://dev.to/acaverna/como-comecar-na-area-de-desenvolvimento-209c",
+    "article_date": "13/12/2020",
+    "article_language": "português",
+    "article_tags": ["#carreira", "#iniciante", "#desenvolvimento"]
+  },
+  {
+    "article_name": "Alguns dos passos que me trouxeram até aqui",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2F3stuzm018f9fgttity6h.png",
+    "article_image_description": "vários blocos escrito to do, doing, test e done",
+    "article_link": "https://dev.to/morgannadev/alguns-dos-passos-que-me-trouxeram-ate-aqui-27d3",
+    "article_date": "29/11/2020",
+    "article_language": "português",
+    "article_tags": ["#carreira", "#reflexão"]
+  },
+  {
+    "article_name": "Você tem um minuto, ou talvez um pouquinho mais, para a palavra de pessoas desenvolvedoras sobre o mundo ágil?",
+    "article_image": "https://miro.medium.com/v2/resize:fit:828/format:webp/1*ge92FrYLssdzaxQPrHdBIA.png",
+    "article_image_description": "vários blocos escrito to do, doing, test e done",
+    "article_link": "https://medium.com/brq-tech/voc%C3%AA-tem-um-minuto-ou-talvez-um-pouquinho-mais-para-a-palavra-de-pessoas-desenvolvedoras-sobre-o-1c49b942e3e",
+    "article_date": "21/07/2019",
+    "article_language": "português",
+    "article_tags": ["#scrum", "#agilidade", "#pesquisa"]
+  },
+  {
+    "article_name": "Mas antes de entrar na área de tecnologia, o que seria legal você saber?",
+    "article_image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*rfab5lqOKOHgk-o7fgB-QA.png",
+    "article_image_description": "texto em formato de código escrito code your future",
+    "article_link": "https://medium.com/brq-tech/mas-antes-de-entrar-na-%C3%A1rea-de-tecnologia-o-que-seria-legal-voc%C3%AA-saber-95acf06ef8a1",
+    "article_date": "10/02/2019",
+    "article_language": "português",
+    "article_tags": ["#iniciante", "#comunidade", "#carreira"]
   },
   {
     "article_name": "Era uma vez a empatia",
@@ -18,102 +666,12 @@
     "article_tags": ["#diversidade", "#empatia", "#comunidade"]
   },
   {
-    "article_name": "As mulheres que mudaram o rumo da tecnologia",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffoucdb5rhou774jsoa22.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
+    "article_name": "Por que faço parte de comunidades de tecnologia e como isso impactou a minha vida",
+    "article_image": "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*9b1ftOO3E0sCc_z6tU8qZQ.png",
+    "article_image_description": "nuvem de palavras de tecnologia",
+    "article_link": "https://medium.com/@morgannadev/por-que-fa%C3%A7o-parte-de-comunidades-de-tecnologia-e-como-isso-impactou-a-minha-vida-229948fb68da",
+    "article_date": "19/02/2018",
     "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "Dicas sobre desenvolvimento de automação com visão computacional",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feg7g6kfmu40atv07c88a.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "Como identificar problemas de ambiente ao tentar instalar BotCity Studio SDK",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F62246sfur7nfpf9kpysl.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
-  },
-  {
-    "article_name": "O papel da pessoa desenvolvedora muito além do código",
-    "article_image": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
-    "article_image_description": "uma bela descrição",
-    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
-    "article_date": "10/10/2024",
-    "article_language": "português",
-    "article_tags": ["#desenvolvimento", "#rpa"]
+    "article_tags": ["#tecnologia", "#comunidade", "#impacto"]
   }
 ]

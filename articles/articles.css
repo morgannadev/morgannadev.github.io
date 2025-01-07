@@ -46,6 +46,11 @@ article a:hover {
   margin-bottom: 3px;
   border-radius: 8px;
   aspect-ratio: 16 / 9;
+  filter: grayscale(1);
+}
+
+.card_article > figure > img:hover {
+  filter: grayscale(0);
 }
 
 .article_date {
