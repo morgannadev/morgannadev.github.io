@@ -1,5 +1,446 @@
 [
   {
+    "article_name": "RPA automation release deployment and versioning management",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/10/capas-2-1.png",
+    "article_image_description": "pessoa usando computador com várias telas",
+    "article_link": "https://blog.botcity.dev/2024/10/12/deploy-release-automation/",
+    "article_date": "12/10/2024",
+    "article_language": "português",
+    "article_tags": ["#deploy", "#versionamento", "#automação"]
+  },
+  {
+    "article_name": "Gerenciamento de deploy e versionamento de release de automação RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/10/capas-2-1.png",
+    "article_image_description": "pessoa usando computador com várias telas",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/10/12/deploy-release-automacao/",
+    "article_date": "12/10/2024",
+    "article_language": "português",
+    "article_tags": ["#deploy", "#versionamento", "#automação"]
+  },
+  {
+    "article_name": "How to securely manage credentials for RPA automation",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/04/capas-4.png",
+    "article_image_description": "notebook com um cadeado em cima do teclado",
+    "article_link": "https://blog.botcity.dev/2024/04/28/rpa-credentials/",
+    "article_date": "28/04/2024",
+    "article_language": "inglês",
+    "article_tags": ["#credenciais", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Como gerenciar as credenciais para automação RPA de forma segura",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/04/capas-4.png",
+    "article_image_description": "notebook com um cadeado em cima do teclado",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/04/28/credenciais-rpa/",
+    "article_date": "28/04/2024",
+    "article_language": "português",
+    "article_tags": ["#credenciais", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Alert Management for Python RPA Automation",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/04/capas-3-1.png",
+    "article_image_description": "sinais de alerta",
+    "article_link": "https://blog.botcity.dev/2024/04/08/rpa-alerts/",
+    "article_date": "08/04/2024",
+    "article_language": "inglês",
+    "article_tags": ["#alerta", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Gerenciamento de alertas para automação Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/04/capas-3-1.png",
+    "article_image_description": "sinais de alerta",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/04/08/alertas-rpa/",
+    "article_date": "08/04/2024",
+    "article_language": "português",
+    "article_tags": ["#alerta", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Trilha de estudos para ser uma pessoa desenvolvedora Python RPA",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fekjeeh2059svfmwyb3sk.png",
+    "article_image_description": "computador, celular e caderno com uma caneta",
+    "article_link": "https://dev.to/botcitydev/trilha-de-estudos-para-ser-uma-pessoa-desenvolvedora-python-rpa-3o85",
+    "article_date": "29/03/2024",
+    "article_language": "português",
+    "article_tags": ["#trilha", "#estudos", "#automação"]
+  },
+  {
+    "article_name": "O papel da pessoa desenvolvedora muito além do código",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0yxp2fvmvolbdg6iqjba.png",
+    "article_image_description": "imagem de uma pessoa de costas utilizando dois computadores",
+    "article_link": "https://dev.to/botcitydev/o-papel-da-pessoa-desenvolvedora-muito-alem-do-codigo-149h",
+    "article_date": "29/03/2024",
+    "article_language": "português",
+    "article_tags": ["#pessoa desenvolvedora", "#carreira"]
+  },
+  {
+    "article_name": "How to manage and monitor Python RPA automation errors",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/03/capas-2-1.png",
+    "article_image_description": "foto de uma mesa com notebooks em cima e cada um com uma pessoa utilizando",
+    "article_link": "https://blog.botcity.dev/2024/03/28/rpa-errors-management/",
+    "article_date": "28/03/2024",
+    "article_language": "inglês",
+    "article_tags": ["#erros", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "Como gerenciar e monitorar erros de automação Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/03/capas-2-1.png",
+    "article_image_description": "foto de uma mesa com notebooks em cima e cada um com uma pessoa utilizando",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/03/28/gerenciamento-erros-rpa/",
+    "article_date": "28/03/2024",
+    "article_language": "português",
+    "article_tags": ["#erros", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "As mulheres que mudaram o rumo da tecnologia",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffoucdb5rhou774jsoa22.png",
+    "article_image_description": "desenho de várias mulheres diferentes juntas",
+    "article_link": "https://dev.to/feministech/as-mulheres-que-mudaram-o-rumo-da-tecnologia-4b6d",
+    "article_date": "24/03/2024",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#diversidade"]
+  },
+  {
+    "article_name": "Dicas sobre desenvolvimento de automação com visão computacional",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feg7g6kfmu40atv07c88a.png",
+    "article_image_description": "imagem do canto do teclado de um notebook",
+    "article_link": "https://dev.to/botcitydev/dicas-sobre-desenvolvimento-de-automacao-com-visao-computacional-1132",
+    "article_date": "17/03/2024",
+    "article_language": "português",
+    "article_tags": ["#visão computacional", "#automação"]
+  },
+  {
+    "article_name": "Logs em Python para automação RPA [+exemplo]",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/03/capa-artigo-4.png",
+    "article_image_description": "duas pessoas olhando o notebook, uma ajudando a outra",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/03/14/logs-em-python-para-automacao-rpa-exemplo/",
+    "article_date": "14/03/2024",
+    "article_language": "português",
+    "article_tags": ["#logs", "#python", "#automação"]
+  },
+  {
+    "article_name": "Logs in Python for RPA automation [+example]",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/03/capa-artigo-4.png",
+    "article_image_description": "duas pessoas olhando o notebook, uma ajudando a outra",
+    "article_link": "https://blog.botcity.dev/2024/03/14/logs-in-python-for-rpa-automation-example/",
+    "article_date": "14/03/2024",
+    "article_language": "inglês",
+    "article_tags": ["#logs", "#python", "#automação"]
+  },
+  {
+    "article_name": "Como identificar problemas de ambiente ao tentar instalar BotCity Studio SDK",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F62246sfur7nfpf9kpysl.png",
+    "article_image_description": "duas pessoas olhando o notebook e o monitor, uma ajudando a outra",
+    "article_link": "https://dev.to/botcitydev/como-identificar-problemas-de-ambiente-ao-tentar-instalar-botcity-studio-sdk-17k8",
+    "article_date": "12/03/2024",
+    "article_language": "português",
+    "article_tags": ["#erros", "#ambiente", "#automação"]
+  },
+  {
+    "article_name": "Para quem é a sua homenagem para mulheres na tecnologia?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fflwpsbr0ziybftm30g2l.png",
+    "article_image_description": "imagem de uma mulher desenhada e atrás dela, montanhas",
+    "article_link": "https://dev.to/feministech/para-quem-e-a-sua-homenagem-para-mulheres-na-tecnologia-1aoo",
+    "article_date": "08/03/2024",
+    "article_language": "português",
+    "article_tags": ["#mulheres", "#diversidade"]
+  },
+  {
+    "article_name": "Como identificar se a automação está executando localmente ou no BotCity Orquestrador?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzfzb9iv10nhl8pgviar1.png",
+    "article_image_description": "duas telas de código e um óculos na frente em destaque vendo as duas telas",
+    "article_link": "https://dev.to/botcitydev/como-identificar-se-a-automacao-esta-executando-localmente-ou-no-botcity-orquestrador-3kh8",
+    "article_date": "06/03/2024",
+    "article_language": "português",
+    "article_tags": ["#automação", "#python"]
+  },
+  {
+    "article_name": "How to develop a desktop automation with Python to access VMs via an RDP connection?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/02/article.png",
+    "article_image_description": "uma pessoa utilizando dois computadores",
+    "article_link": "https://blog.botcity.dev/2024/03/01/automation-desktop-rdp-connection/",
+    "article_date": "01/03/2024",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#python", "#rdp"]
+  },
+  {
+    "article_name": "Como construir uma automação desktop em Python para acessar VMs por conexão RDP?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/02/article.png",
+    "article_image_description": "uma pessoa utilizando dois computadores",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/03/01/como-construir-uma-automacao-desktop-em-python-para-acessar-vms-por-conexao-rdp/",
+    "article_date": "01/03/2024",
+    "article_language": "português",
+    "article_tags": ["#automação", "#python", "#rdp"]
+  },
+  {
+    "article_name": "Common mistakes when getting started with Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/02/capa-artigo.png",
+    "article_image_description": "imagem de uma pessoa utilizando um computador e na tela códigos de programação",
+    "article_link": "https://blog.botcity.dev/2024/02/15/common-rpa-errors/",
+    "article_date": "15/02/2024",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#python", "#erros"]
+  },
+  {
+    "article_name": "Erros comuns nos primeiros passos com Python RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/02/capa-artigo.png",
+    "article_image_description": "imagem de uma pessoa utilizando um computador e na tela códigos de programação",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/02/15/erros-comuns-rpa/",
+    "article_date": "15/02/2024",
+    "article_language": "português",
+    "article_tags": ["#automação", "#python", "#erros"]
+  },
+  {
+    "article_name": "How to develop Web automation with Python and Selenium",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/02/Capas-para-artigos-2-1.png",
+    "article_image_description": "imagem de uma pessoa utilizando um computador e na tela códigos de programação",
+    "article_link": "https://blog.botcity.dev/2024/02/12/web-automation-python/",
+    "article_date": "12/02/2024",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#python", "#selenium"]
+  },
+  {
+    "article_name": "Como desenvolver automação Web com Python e Selenium",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/02/Capas-para-artigos-2-1.png",
+    "article_image_description": "imagem de uma pessoa utilizando um computador e na tela códigos de programação",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/02/12/automacao-web-python/",
+    "article_date": "12/02/2024",
+    "article_language": "português",
+    "article_tags": ["#automação", "#python", "#selenium"]
+  },
+  {
+    "article_name": "The Zen of Python - um olhar sobre a filosofia do Python",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1w739tgdfdqbo2z526yr.png",
+    "article_image_description": "vários logos do python e no centro escrito python",
+    "article_link": "https://dev.to/feministech/the-zen-of-python-um-olhar-sobre-a-filosofia-do-python-16ai",
+    "article_date": "03/02/2024",
+    "article_language": "português",
+    "article_tags": ["#programação", "#python", "#iniciante"]
+  },
+  {
+    "article_name": "Como começar a programar em Python: guia com dicas",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/01/Capas-para-artigos.png",
+    "article_image_description": "uma pessoa desfocada e em destaque um post-it escrito python",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/01/16/como-comecar-a-programar-em-python/",
+    "article_date": "16/01/2024",
+    "article_language": "português",
+    "article_tags": ["#programação", "#python", "#iniciante"]
+  },
+  {
+    "article_name": "Arquitetura de automação RPA: explorando as entidades",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/01/Capas-para-artigos-3.jpg",
+    "article_image_description": "aparecem três pessoas na imagem em volta da mesa e uma delas está escrevendo em um caderno",
+    "article_link": "https://blog.botcity.dev/pt-br/2024/01/12/arquitetura-de-automacao/",
+    "article_date": "12/01/2024",
+    "article_language": "português",
+    "article_tags": ["#arquitetura", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "RPA automation architecture: exploring entities",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/01/article-automation-architecture.jpg",
+    "article_image_description": "aparecem três pessoas na imagem em volta da mesa e uma delas está escrevendo em um caderno",
+    "article_link": "https://blog.botcity.dev/2024/01/12/automation-architecture/",
+    "article_date": "12/01/2024",
+    "article_language": "inglês",
+    "article_tags": ["#arquitetura", "#automação", "#rpa"]
+  },
+  {
+    "article_name": "Como se tornar uma pessoa desenvolvedora em 2024?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkr1tni5o2zr2ydrmy2fv.png",
+    "article_image_description": "na imagem há um alvo desenhado no céu e uma pessoa com arco e flecha em cima de uma rocha apontando para o alvo",
+    "article_link": "https://dev.to/feministech/como-se-tornar-uma-pessoa-desenvolvedora-em-2024-2lk0",
+    "article_date": "01/01/2024",
+    "article_language": "português",
+    "article_tags": ["#desenvolvimento", "#carreira"]
+  },
+  {
+    "article_name": "Lista de ferramentas Python para praticar online",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/12/capa-artigo-ferramentas-python.jpg",
+    "article_image_description": "foto de uma tela de computador com vários códigos em python",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/12/27/ferramentas-python/",
+    "article_date": "27/12/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#programação"]
+  },
+  {
+    "article_name": "List of tools to practice Python online",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/12/capa-artigo-ferramentas-python-1.jpg",
+    "article_image_description": "foto de uma tela de computador com vários códigos em python",
+    "article_link": "https://blog.botcity.dev/2023/12/27/python-tools/",
+    "article_date": "27/12/2023",
+    "article_language": "inglês",
+    "article_tags": ["#python", "#programação"]
+  },
+  {
+    "article_name": "Gestão da automação e como gerenciar as tarefas RPA",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/12/capa-artigo-gerenciamento-1.jpg",
+    "article_image_description": "a foto mostra uma mesa com dois notebooks e duas pessoas escrevendo em uma folha de papel",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/12/22/gestao-da-automacao/",
+    "article_date": "22/12/2023",
+    "article_language": "português",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "Automation management: how to manage RPA automation tasks [+ practical example]",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/12/capa-artigo-gerenciamento.jpg",
+    "article_image_description": "a foto mostra uma mesa com dois notebooks e duas pessoas escrevendo em uma folha de papel",
+    "article_link": "https://blog.botcity.dev/2023/12/22/automation-management-rpa/",
+    "article_date": "22/12/2023",
+    "article_language": "inglês",
+    "article_tags": ["#rpa", "#automação"]
+  },
+  {
+    "article_name": "A arte do erro sem mensagem: por que meu código Python interpretou minha variável como tupla ao invés de int",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhnf158xsi9m33ah3txps.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/a-arte-do-erro-sem-mensagem-por-que-meu-codigo-python-interpretou-minha-variavel-como-tupla-ao-inves-de-int-56bf",
+    "article_date": "16/12/2023",
+    "article_language": "português",
+    "article_tags": ["#erros", "#python", "#tupla"]
+  },
+  {
+    "article_name": "Do medo do Open Source ao impacto na comunidade: Projeto Octocats Hacktoberfest 2023",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fn3sd8md21tc89ay2mbl0.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/do-medo-do-open-source-ao-impacto-na-comunidade-projeto-octocats-hacktoberfest-2023-168b",
+    "article_date": "05/12/2023",
+    "article_language": "português",
+    "article_tags": ["#hacktoberfest", "#open source"]
+  },
+  {
+    "article_name": "Ferramentas que você pode usar para praticar Python online",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flwkszw3az65f2ok1tudb.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/ferramentas-que-voce-pode-usar-para-praticar-python-online-27no",
+    "article_date": "20/11/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#programação"]
+  },
+  {
+    "article_name": "Orquestração RPA: Como criar e executar tarefas da sua automação no BotCity Orquestrador",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/Como-executar-tarefas-da-sua-automacao-no-BotCity-Orquestrador-2-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/10/24/orquestracao-rpa-como-criar-e-executar-tarefas-da-sua-automacao-no-botcity-orquestrador/",
+    "article_date": "24/10/2023",
+    "article_language": "português",
+    "article_tags": ["#automação", "#rpa"]
+  },
+  {
+    "article_name": "RPA Orchestration: How to create and execute your automation tasks in BotCity Orchestrator",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/How-to-create-and-execute-your-automation-tasks-in-BotCity-Orchestrator-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/10/24/orchestracao-rpa-how-to-create-and-execute-your-automation-tasks-in-the-botcity-orchestrator/",
+    "article_date": "24/10/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#rpa"]
+  },
+  {
+    "article_name": "Guia sobre como gerenciar a execução das suas automações, conheça o BotCity Runner",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/Guia-completo-sobre-BotCity-Runner-e-como-gerenciar-a-execucao-das-suas-automacoes-2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/10/19/guia-sobre-como-gerenciar-a-execucao-das-suas-automacoes-conheca-o-botcity-runner/",
+    "article_date": "19/10/2023",
+    "article_language": "português",
+    "article_tags": ["#automação", "#runner", "#rpa"]
+  },
+  {
+    "article_name": "How to manage the execution of your automation, your guide to know BotCity Runner",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/Guia-completo-sobre-BotCity-Runner-e-como-gerenciar-a-execucao-das-suas-automacoes-3-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/10/19/how-to-manage-the-execution-of-your-automation-your-guide-to-know-botcity-runner/",
+    "article_date": "19/10/2023",
+    "article_language": "inglês",
+    "article_tags": ["#automação", "#runner", "#rpa"]
+  },
+  {
+    "article_name": "Orquestração RPA: Como fazer deploy de qualquer tipo de automação no BotCity Maestro",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/Como-fazer-deploy-de-qualquer-tipo-de-automacao-no-BotCity-Maestro-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/10/15/orquestracao-rpa-como-fazer-deploy-de-qualquer-tipo-de-automacao-no-botcity-maestro/",
+    "article_date": "15/10/2023",
+    "article_language": "português",
+    "article_tags": ["#orquestração", "#deploy"]
+  },
+  {
+    "article_name": "RPA orchestration: How to deploy any automation in BotCity Maestro",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/How-to-deploy-any-automation-in-BotCity-Maestro-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/10/15/rpa-orchestration-how-to-deploy-any-automation-in-botcity-maestro/",
+    "article_date": "15/10/2023",
+    "article_language": "inglês",
+    "article_tags": ["#orquestração", "#deploy"]
+  },
+  {
+    "article_name": "Como adicionar as badges do Hacktoberfest no seu perfil do GitHub",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6by2a69lrinl659jk7nc.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-adicionar-as-badges-do-hacktoberfest-no-seu-perfil-do-github-3ngk",
+    "article_date": "13/10/2023",
+    "article_language": "português",
+    "article_tags": ["#hacktoberfest", "#open source"]
+  },
+  {
+    "article_name": "Orquestração RPA: Por que é importante orquestrar suas automações feitas em Python ou outras linguagens de programação?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv4elttgmcmvzaxatvfb4.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/hacktoberfest-para-quem-quer-comecar-3njp",
+    "article_date": "09/10/2023",
+    "article_language": "português",
+    "article_tags": ["#hacktoberfest", "#open source"]
+  },
+  {
+    "article_name": "Orquestração RPA: Por que é importante orquestrar suas automações feitas em Python ou outras linguagens de programação?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/Capa-post-blog-1.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/pt-br/2023/10/06/orquestracao-rpa-por-que-e-importante-orquestrar-suas-automacoes-feitas-em-python-ou-outras-linguagens-de-programacao/",
+    "article_date": "06/10/2023",
+    "article_language": "português",
+    "article_tags": ["#orquestração", "#rpa", "#python"]
+  },
+  {
+    "article_name": "RPA orchestration: Why is it important to orchestrate your automation built in Python or other programming languages?",
+    "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/10/Capa-post-blog-3.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://blog.botcity.dev/2023/10/06/orchestracao-rpa-why-its-important-to-orchestrate-your-automation-built-in-python-or-other-programming-languages/",
+    "article_date": "06/10/2023",
+    "article_language": "inglês",
+    "article_tags": ["#orquestração", "#rpa", "#python"]
+  },
+  {
+    "article_name": "Comunicação além das técnicas",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhzrf8o3zxrc3trivjz0x.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/morgannadev/comunicacao-alem-das-tecnicas-2fen",
+    "article_date": "15/09/2023",
+    "article_language": "português",
+    "article_tags": ["#comunicação", "#habilidade"]
+  },
+  {
+    "article_name": "Como iniciar meus estudos em Python",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foydtpqbhm1xqbv6efo31.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/feministech/como-iniciar-meus-estudos-em-python-2aii",
+    "article_date": "21/07/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#estudos", "#programação"]
+  },
+  {
+    "article_name": "Por que usar Python em seu projeto RPA?",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe6wb4cy1001x93q85pc2.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://dev.to/morgannadev/por-que-usar-python-em-seu-projeto-rpa-49fn",
+    "article_date": "15/07/2023",
+    "article_language": "português",
+    "article_tags": ["#python", "#rpa", "#automação"]
+  },
+  {
+    "article_name": "Por qual linguagem de programação devo começar?",
+    "article_image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*tqCP9ShAPBGjuONndTSK-Q.png",
+    "article_image_description": "imagem com o título do artigo",
+    "article_link": "https://medium.com/orangejuicefc/por-qual-linguagem-de-programa%C3%A7%C3%A3o-devo-come%C3%A7ar-6bf15c4826ea",
+    "article_date": "15/07/2023",
+    "article_language": "português",
+    "article_tags": ["#programação", "#desenvolvimento"]
+  },
+  {
     "article_name": "Quais tipos de logs considerar na sua automação Python RPA e como gerenciá-los – Parte 1",
     "article_image": "https://blog.botcity.dev/wp-content/uploads/2023/07/Quais-tipos-de-logs-considerar-na-sua-automacao-Python-RPA-e-como-gerencia-los-Parte-1.png",
     "article_image_description": "imagem com o título do artigo",
