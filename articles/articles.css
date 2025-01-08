@@ -78,3 +78,29 @@ article a:hover {
   box-sizing: border-box;
   margin-bottom: 10px;
 }
+
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.pagination_button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination_button:hover {
+  background-color: #e9e9e9;
+}
+
+.pagination_button.active {
+  background-color: black;
+  color: white;
+  border-color: black;
+}

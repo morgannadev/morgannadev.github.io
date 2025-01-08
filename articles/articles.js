@@ -1,17 +1,81 @@
 let articles = [];
+let filteredArticles = []; // Array para armazenar artigos filtrados
+const articlesPerPage = 8;
+let currentPage = 1;
 
-function createArticleCards() {
+const inputArticle = document.getElementById("filter_article");
+const sectionArticle = document.getElementById("articles_cards");
+
+function createArticleCards(page = 1) {
   fetch("articles.json")
     .then((res) => res.json())
     .then((res) => (articles = res))
     .then((res) => {
-      res.map((article) => {
-        createCard(article);
-      });
+      renderPage(page, articles);
+      renderPagination(articles);
     });
 }
 
-createArticleCards();
+function renderPage(page, articlesList) {
+  sectionArticle.innerHTML = "";
+  const startIndex = (page - 1) * articlesPerPage;
+  const endIndex = startIndex + articlesPerPage;
+  const paginatedArticles = articlesList.slice(startIndex, endIndex);
+
+  if (paginatedArticles.length === 0) {
+    sectionArticle.innerHTML = "<p>Nenhum artigo encontrado.</p>";
+    return;
+  }
+
+  paginatedArticles.forEach((article) => {
+    createCard(article);
+  });
+}
+
+function renderPagination(articlesList) {
+  const totalPages = Math.ceil(articlesList.length / articlesPerPage);
+  let paginationContainer = document.getElementById("pagination");
+
+  if (totalPages <= 1) {
+    if (paginationContainer) {
+      paginationContainer.remove();
+    }
+    return;
+  }
+
+  if (!paginationContainer) {
+    paginationContainer = document.createElement("div");
+    paginationContainer.classList.add("pagination_container");
+    paginationContainer.id = "pagination";
+    const main = document.querySelector("main");
+    main.appendChild(paginationContainer);
+  }
+  paginationContainer.innerHTML = "";
+
+  for (let i = 1; i <= totalPages; i++) {
+    const pageButton = document.createElement("button");
+    pageButton.textContent = i;
+    pageButton.classList.add("pagination_button");
+
+    if (i === currentPage) {
+      pageButton.classList.add("active");
+    }
+
+    pageButton.addEventListener("click", () => {
+      currentPage = i;
+      renderPage(
+        currentPage,
+        filteredArticles.length > 0 ? filteredArticles : articles
+      );
+      renderPagination(
+        filteredArticles.length > 0 ? filteredArticles : articles
+      );
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    paginationContainer.appendChild(pageButton);
+  }
+}
 
 function createCard(article) {
   const newTagDiv = document.createElement("div");
@@ -53,29 +117,16 @@ function createCard(article) {
   currentTagSection.appendChild(newTagDiv);
 }
 
-const inputArticle = document.getElementById("filter_article");
-const sectionArticle = document.getElementById("articles_cards");
-
-function showFilteredArticles(list) {
-  sectionArticle.innerHTML = "";
-
-  if (list.length === 0) {
-    sectionArticle.innerHTML = "<p>Nenhum artigo encontrado.</p>";
-    return;
-  }
-
-  list.forEach((article) => {
-    createCard(article);
-  });
-}
-
 function filterArticles() {
   const word = inputArticle.value.toLowerCase();
-  const filteredArticles = articles.filter((article) =>
+  filteredArticles = articles.filter((article) =>
     article.article_tags.some((tag) => tag.toLowerCase().includes(word))
   );
 
-  showFilteredArticles(filteredArticles);
+  renderPage(1, filteredArticles);
+  renderPagination(filteredArticles);
 }
 
 inputArticle.addEventListener("input", filterArticles);
+
+createArticleCards();
