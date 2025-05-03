@@ -2,7 +2,7 @@
   {
     "talk_event": "Programaria",
     "talk_name": "Primeiros passos na tecnologia, por que entrar na área?",
-    "talk_image": "images/cover/painel.png",
+    "talk_image": "/images/cover/painel.png",
     "talk_image_description": "imagem para demonstração escrito painel ou roda de conversa",
     "talk_slides_link": "https://www.youtube.com/live/Vuk3CciFDgM?si=-9ARlrsKqvnR7gz5&t=6097",
     "talk_video_link": "https://www.youtube.com/live/Vuk3CciFDgM?si=-9ARlrsKqvnR7gz5&t=6097",
@@ -24,7 +24,7 @@
   {
     "talk_event": "The Developers Conference",
     "talk_name": "O impacto da IA no ciclo de vida das aplicações",
-    "talk_image": "images/cover/painel.png",
+    "talk_image": "/images/cover/painel.png",
     "talk_image_description": "imagem para demonstração escrito painel ou roda de conversa",
     "talk_slides_link": "",
     "talk_video_link": "",
