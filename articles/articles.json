@@ -1,11 +1,20 @@
 [
   {
+    "article_name": "Como maximizar o uso da Inteligência Artificial com a engenharia de prompt",
+    "article_image": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9xnh2fwsu97lzzdgt4qc.png",
+    "article_image_description": "uma mão robótica e uma mão de ser humano",
+    "article_link": "https://dev.to/feministech/como-maximizar-o-uso-da-inteligencia-artificial-com-a-engenharia-de-prompt-30od",
+    "article_date": "16/05/2025",
+    "article_language": "português",
+    "article_tags": ["#prompt", "#ia", "#llm"]
+  },
+  {
     "article_name": "RPA automation release deployment and versioning management",
     "article_image": "https://blog.botcity.dev/wp-content/uploads/2024/10/capas-2-1.png",
     "article_image_description": "pessoa usando computador com várias telas",
     "article_link": "https://blog.botcity.dev/2024/10/12/deploy-release-automation/",
     "article_date": "12/10/2024",
-    "article_language": "português",
+    "article_language": "inglês",
     "article_tags": ["#deploy", "#versionamento", "#automação"]
   },
   {
